@@ -18,6 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: resident-evil-4-remake
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,8 +29,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
+          cache-dependency-path: resident-evil-4-remake/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -37,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: resident-evil-4-remake/dist
 
   deploy:
     needs: build
