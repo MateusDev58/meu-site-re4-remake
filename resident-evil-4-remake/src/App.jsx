@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Intro from "./Componentes/0-Intro/intro";
+import Intro from "./Componentes/0-Intro/Intro";
 import { Cabecalho } from "./Componentes/1-Cabecalho/Cabecalho";
 import { Hero } from "./Componentes/2-Hero/Hero";
 import { ConteudoBaixavel } from "./Componentes/3-ConteudoBaixavel/ConteudoBaixavel";
