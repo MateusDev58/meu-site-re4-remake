@@ -1,0 +1,123 @@
+@media screen and (max-width: 1200px) {
+  .caixa-sobre-extra {
+    bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .caixa-conteudo-sobre {
+    padding: 0rem 0rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .caixa-sobre-extra {
+    bottom: clamp(4rem, 8vw, 12rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sobre-bg,
+  .sobre-img-2 {
+    display: none;
+  }
+
+  .sobre-bg-mobile,
+  .sobre-img-2-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+
+  .sobre-stage {
+    display: block;
+    overflow: visible;
+    position: relative;
+  }
+
+  .sobre-bg-layer {
+    position: relative;
+  }
+
+  .sobre-content {
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+    width: 90%;
+    z-index: 2;
+    margin-top: 0;
+  }
+
+  .caixa-texto {
+    margin-bottom: 0;
+  }
+
+  .sobre-span {
+    font-size: clamp(2.8rem, 5vw, 6rem);
+    margin-bottom: clamp(1.92rem, 3vw, 2.85rem);
+  }
+
+  .sobreviver-span {
+    font-size: clamp(4.8rem, 13vw, 10.24rem);
+  }
+
+  .texto-sobre-p {
+    font-size: clamp(1.152rem, 3.2vw, 2.4576rem);
+    max-width: clamp(32rem, 85vw, 65rem);
+    width: 100%;
+  }
+
+  .historia-stage {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sobre-img-2-mobile {
+    position: relative;
+    z-index: 1;
+    order: 1;
+  }
+
+  .caixa-sobre-extra {
+    display: contents;
+  }
+
+  /* .caixa-sobre-extra {
+    display: block;
+  } */
+
+  .caixa-historia {
+    order: 2;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+    background-color: #000;
+  }
+
+  .caixa-img-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .img-pequena-sobre {
+    max-width: 68.616rem;
+    height: auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-texto-sobre {
+    left: 1rem;
+  }
+}

@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) {
+  .caixa-info-hero {
+    position: absolute;
+    top: auto;
+    bottom: 27rem;
+    right: 0;
+    width: clamp(21.92rem, calc(0.016rem + 60.88vw), 46.761rem);
+    height: clamp(6.866rem, 0.998rem + 16.3vw, 13.517rem);
+    padding: clamp(1.46rem, 0.5rem + 2.667vw, 2.548rem)
+      clamp(1.92rem, 5.333vw, 4.096rem);
+  }
+
+  .caixa-playstation-panther {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  .playstation-panther {
+    width: clamp(5.952rem, 16.491vw - 0.003rem, 12.697rem);
+    height: clamp(5.22rem, 14.469vw + 0.011rem, 11.138rem);
+  }
+
+  .playstation-panther-user {
+    width: clamp(5.952rem, 16.491vw - 0.003rem, 12.697rem);
+    height: clamp(4.672rem, 12.946vw + 0.011rem, 9.967rem);
+  }
+
+  .texto-info-hero {
+    font-size: clamp(1.632rem, 4.533vw, 3.4816rem);
+  }
+
+  .texto-info-hero-destaque {
+    font-size: clamp(1.9584rem, 1.164rem + 2.216vw, 4.17792rem);
+  }
+
+  .caixa-logo-marca {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    transform: translateX(-50%);
+  }
+
+  .logo-resident-evil-4-remake-img {
+    width: clamp(29.663rem, -0.002rem + 82.402vw, 63.283rem);
+  }
+
+  .ja-disponivel-span {
+    margin-bottom: clamp(1.92rem, 5.333vw, 4.096rem);
+    font-size: clamp(2.784rem, 7.733vw, 5.9392rem);
+  }
+
+  .logo-marca-playstation-hero {
+    width: clamp(6.994rem, calc(0.001rem + 19.43vw), 14.922rem);
+  }
+
+  .logo-marca-xbox-hero {
+    width: clamp(6.548rem, calc(0.002rem + 18.19vw), 13.972rem);
+  }
+
+  .logo-marca-steam {
+    width: clamp(5.664rem, calc(0.002rem + 15.74vw), 12.086rem);
+  }
+
+  .caixa-rede-social {
+    position: absolute;
+    left: 9%;
+    bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: clamp(2rem, 1.118rem + 2.451vw, 3rem);
+    margin: 0rem;
+  }
+
+  .siga-nos-p {
+    writing-mode: horizontal-tb;
+    font-size: clamp(1.92rem, 5.333vw, 4.096rem);
+  }
+
+  .linha-horizontal {
+    width: 0.1rem;
+    height: 4.423rem;
+    transform: none;
+    margin: 0 clamp(1.44rem, 0.003rem + 4vw, 3.072rem);
+  }
+
+  .icone-rede-social {
+    width: clamp(2.066rem, calc(0.012rem + 5.75vw), 4.423rem);
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .caixa-playstation-panther {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .caixa-info-hero {
+    bottom: 16rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .caixa-info-hero {
+    position: absolute;
+    top: auto;
+    bottom: 34rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .caixa-info-hero {
+    bottom: 22rem;
+  }
+}

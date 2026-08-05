@@ -1,0 +1,384 @@
+@media screen and (max-width: 769px) {
+  .caixa-de-ouro {
+    width: 61.555rem;
+  }
+
+  .caixa-de-ouro::after {
+    width: 61.555rem;
+  }
+
+  .caixa-veja-aqui {
+    margin-top: 0.8rem;
+  }
+
+  /* modal */
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-loja {
+    padding-top: clamp(3.8375rem, 0.0006rem + 10.6579vw, 8.1859rem);
+    padding-bottom: clamp(0.87rem, 6.9088rem - 7.863vw, 4.0781rem);
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0rem;
+  }
+
+  .caixa-titulo-loja {
+    padding: 0rem clamp(1.91875rem, 5.327vw, 4.09219rem);
+    margin-bottom: clamp(1.92rem, 5.333vw, 4.096rem);
+    gap: clamp(1rem, 0.118rem + 2.451vw, 2rem);
+  }
+
+  .produto-span {
+    font-size: clamp(4.8rem, 13.33vw, 10.24rem);
+  }
+
+  .divisor-produto {
+    height: clamp(3.802rem, 10.561vw, 8.111rem);
+  }
+
+  .disponivel-produto {
+    font-size: clamp(2.112rem, 5.867vw, 4.5056rem);
+  }
+
+  .caixa-escolha-edicao {
+    width: 100%;
+    padding: clamp(2.88rem, 8vw, 6.144rem)
+      clamp(1.91875rem, 5.327vw, 4.09219rem);
+  }
+
+  .caixa-escolha-edicao::after {
+    width: 100%;
+  }
+
+  .caixa-escolha {
+    margin-bottom: 2.048rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .numero-1 {
+    font-size: clamp(1.248rem, 3.467vw, 2.6624rem);
+    width: clamp(1.497rem, 4.158vw, 3.194rem);
+    height: clamp(1.497rem, 4.158vw, 3.194rem);
+  }
+
+  .escolha-uma-edicao-p {
+    font-size: clamp(1.248rem, 3.467vw, 2.6624rem);
+  }
+
+  .caixa-botao-edicao,
+  .caixa-botao-edicao-plataforma {
+    margin-top: 0rem;
+    margin-bottom: clamp(1.92rem, 5.333vw, 4.096rem);
+    flex-wrap: wrap;
+  }
+
+  .botao-edicao-jogo,
+  .botao-edicao-plataforma {
+    width: clamp(15.198rem, -0.402rem + 43.333vw, 32.878rem);
+    height: clamp(3.453rem, 9.605vw, 7.372rem);
+    font-size: clamp(1.344rem, 3.733vw, 2.8672rem);
+    padding: clamp(0.72rem, 2vw, 1.536rem) clamp(0.48rem, 1.333vw, 1.024rem);
+  }
+
+  .caixa-escolha-plataforma {
+    margin-top: 0rem;
+    margin-bottom: 2.048rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .logo-lojas-ps5-img,
+  .logo-lojas-ps4-img {
+    width: clamp(5.934rem, 0.264rem + 15.75vw, 12.375rem);
+  }
+
+  .logo-lojas-xbox-img {
+    width: clamp(9.808rem, 0.422rem + 26.088vw, 20.452rem);
+  }
+
+  .logo-lojas-steam-img {
+    width: clamp(4.773rem, 0.207rem + 12.684vw, 9.95rem);
+  }
+
+  .caixa-edicao-padrao {
+    width: 100%;
+  }
+
+  .caixa-titulo-edicao {
+    width: clamp(32.163rem, -0.017rem + 89.346vw, 68.616rem);
+    height: clamp(7.88rem, 0.448rem + 20.623vw, 16.294rem);
+    margin-top: 0rem;
+    padding: clamp(0.96rem, 2.667vw, 2.048rem) 0rem;
+  }
+
+  .edicoes-h3 {
+    font-size: clamp(3.84rem, 10.667vw, 8rem);
+  }
+
+  .capa-edicao {
+    width: clamp(31.963rem, -0.201rem + 89.346vw, 68.416rem);
+    width: 100%;
+    border-right: none;
+  }
+
+  .caixa-versao-didital,
+  .caixa-didital-loja {
+    width: clamp(32.163rem, -0.017rem + 89.346vw, 68.616rem);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caixa-edicao-padrao-conteudos {
+    order: 1;
+    width: clamp(31.963rem, -0.375rem + 89.836vw, 68.616rem);
+    height: clamp(8.208rem, 0.089rem + 22.537vw, 17.403rem);
+    padding: clamp(1.92rem, 5.333vw, 4.096rem);
+  }
+
+  .conteudos-incluidos-h4 {
+    font-size: clamp(1.152rem, 3.2vw, 2.4576rem);
+    margin-bottom: clamp(0.96rem, 2.667vw, 2.048rem);
+  }
+
+  .resident-evil-4-remake-loja {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+  }
+
+  .caixa-conteudo-didital {
+    order: 2;
+    width: clamp(31.963rem, -0.375rem + 89.836vw, 68.616rem);
+    height: clamp(13.166rem, 0.635rem + 34.821vw, 27.373rem);
+    padding: clamp(1.92rem, 5.333vw, 4.096rem);
+  }
+
+  .versao-didital-h4 {
+    font-size: clamp(1.92rem, 0.088rem + 5.098vw, 4rem);
+    margin-bottom: clamp(0.24rem, 0.011rem + 0.637vw, 0.5rem);
+  }
+
+  .botao-loja {
+    width: clamp(27.725rem, -0.525rem + 78.431vw, 59.825rem);
+    height: clamp(3.791rem, 10.532vw, 8.088rem);
+    font-size: clamp(1.248rem, 3.467vw, 2.6624rem);
+    padding: clamp(0.96rem, 2.667vw, 2.048rem);
+  }
+
+  .caixa-como-fazer-upgrade {
+    order: 3;
+    width: clamp(31.963rem, -0.375rem + 89.836vw, 68.616rem);
+    height: clamp(9.125rem, 0.198rem + 24.8vw, 19.244rem);
+    padding: clamp(1.92rem, 0.003rem + 5.33vw, 4.096rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caixa-upgrade {
+    width: clamp(27.925rem, -0.347rem + 78.68vw, 60.025rem);
+    height: clamp(5.088rem, 14.13vw, 10.853rem);
+    padding: clamp(0.4005rem, -0.5484rem + 1.2341vw, 1.1383rem)
+      clamp(0.96rem, 0.552rem + 1.1346vw, 1.4229rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .como-fazer-upgrade-a {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+  }
+
+  .caixa-bonus {
+    width: 100%;
+    padding: clamp(1.92rem, 0.003rem + 5.33vw, 4.096rem);
+  }
+
+  .pre-venda-h4 {
+    font-size: clamp(1.728rem, 0.072rem + 4.588vw, 3.6rem);
+    margin-bottom: clamp(0.96rem, 2.667vw, 2.048rem);
+  }
+
+  .pre-venda-small {
+    font-size: clamp(1.0368rem, 0.0432rem + 2.753vw, 2.16rem);
+  }
+
+  .caixa-de-ouro {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(1.92rem, 0.003rem + 5.33vw, 4.096rem)
+      clamp(1.92rem, 0.003rem + 5.33vw, 4.096rem);
+    margin-bottom: clamp(1.92rem, 0.003rem + 5.33vw, 4.096rem);
+    width: clamp(28.125rem, -0.007rem + 78.186vw, 60.025rem);
+    height: clamp(31.547rem, 0.601rem + 86.113vw, 66.681rem);
+  }
+
+  .caixa-de-ouro::after {
+    width: clamp(28.125rem, -0.007rem + 78.186vw, 60.025rem);
+  }
+
+  .maleta-img {
+    width: clamp(24.288rem, -0.198rem + 68.005vw, 52.034rem);
+  }
+
+  .maleta-municao-p {
+    font-size: clamp(1.536rem, 0.005rem + 4.257vw, 3.2728rem);
+  }
+
+  .amuleto-p {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+    margin-bottom: 2.048rem;
+  }
+
+  .personalizar-maleta-li {
+    width: clamp(24.288rem, -0.198rem + 68.005vw, 52.034rem);
+    font-size: clamp(0.7392rem, 2.053vw, 1.57696rem);
+    margin-bottom: clamp(0.29568rem, 0.821vw, 0.630784rem);
+  }
+
+  .para-quem-p {
+    font-size: clamp(0.7392rem, -0.198rem + 2.605vw, 1.80224rem);
+    margin-bottom: clamp(0.2112rem, 0.587vw, 0.45056rem);
+  }
+
+  .sao-elegiveis-li {
+    font-size: clamp(0.7392rem, 2.053vw, 1.57696rem);
+    margin-bottom: clamp(0.2112rem, 0.587vw, 0.45056rem);
+  }
+
+  .deluxe-indisponivel-compra-p {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+  }
+
+  .informacoes-importantes-h3 {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+    margin-bottom: clamp(0.8rem, 0.624rem + 0.49vw, 1rem);
+  }
+
+  .caixa-resident-evil-trilogy {
+    padding: clamp(1.91875rem, -0.001rem + 5.327vw, 4.09219rem)
+      clamp(1.91875rem, -0.001rem + 5.327vw, 4.09219rem) 0rem;
+  }
+
+  .resident-evil-trilogy-capa-img {
+    width: clamp(32.163rem, 0.003rem + 89.306vw, 68.6rem);
+  }
+
+  /* Gold Edition */
+
+  .caixa-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caixa-edicao-gold-edition {
+    order: 1;
+    width: 100%;
+    height: clamp(25.789rem, 0.457rem + 70.364vw, 54.459rem);
+    padding: clamp(1.92rem, -0.198rem + 5.882vw, 4.096rem);
+  }
+
+  .caixa-veja-aqui {
+    margin-top: clamp(2rem, 1.118rem + 2.451vw, 3rem);
+    display: flex;
+    gap: clamp(2rem, 1.118rem + 2.451vw, 3rem);
+  }
+
+  .veja-aqui-button,
+  .veja-aqui-a {
+    width: clamp(27.925rem, -0.399rem + 78.676vw, 60.025rem);
+    height: clamp(5.088rem, -0.0003rem + 14.13vw, 10.853rem);
+    font-size: clamp(1.056rem, -0.0003rem + 2.933vw, 2.2528rem);
+    text-align: center;
+    padding: clamp(0.96rem, -0.0003rem + 2.667vw, 2.048rem);
+  }
+
+  .caixa-conteudo-didital {
+    order: 2;
+  }
+
+  .caixa-como-fazer-upgrade {
+    order: 3;
+  }
+
+  .caixa-observacao {
+    width: 100%;
+    height: clamp(10.73rem, 0.122rem + 29.475vw, 22.784rem);
+    padding: clamp(1.92rem, -0.198rem + 5.882vw, 4.096rem);
+  }
+
+  .observacao-li {
+    font-size: clamp(0.7392rem, -0.0003rem + 2.053vw, 1.57696rem);
+    margin-bottom: 0.2rem;
+  }
+
+  .caixa-conteudo-didital-separate-ways {
+    border: solid 0.1rem #4a4a4a;
+    padding: clamp(1.92rem, -0.198rem + 5.882vw, 4.096rem);
+    width: 100%;
+    height: clamp(13.066rem, 0.54rem + 34.821vw, 27.273rem);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  /* modal */
+
+  .caixa-modal-gold-edition {
+    margin: 0rem;
+    padding: clamp(3.84rem, 1.067vw, 8.192rem) clamp(1.92rem, 0.533vw, 4.096rem);
+  }
+
+  .produto-modal-span {
+    font-size: clamp(1.44rem, 0.003rem + 4vw, 3.072rem);
+    margin-bottom: clamp(1.92rem, 0.003rem + 5.333vw, 4.096rem);
+  }
+
+  .pacote-h3 {
+    font-size: clamp(2.112rem, 0.003rem + 5.867vw, 4.506rem);
+    margin-bottom: clamp(1.92rem, 0.003rem + 5.333vw, 4.096rem);
+  }
+
+  .caixa-conteudo-modal-gold-edition {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    position: relative;
+    width: clamp(30.763rem, -1.381rem + 89.33vw, 67.209rem);
+  }
+
+  .caixa-conteudo-modal-gold-edition::after {
+    width: clamp(30.763rem, -1.381rem + 89.33vw, 67.209rem);
+  }
+
+  .item-modal-gold-edition {
+    width: clamp(30.763rem, -1.381rem + 89.33vw, 67.209rem);
+    height: clamp(30.325rem, -1.026rem + 87.208vw, 65.906rem);
+    padding: clamp(1.92rem, 0.003rem + 5.333vw, 4.096rem);
+  }
+
+  .item-modal-gold-edition-p {
+    font-size: clamp(1.056rem, 0.003rem + 2.933vw, 2.253rem);
+    margin-bottom: clamp(1.44rem, 0.003rem + 4vw, 3.072rem);
+  }
+
+  .img-modal-gold-edition {
+    width: clamp(26.925rem, -1.332rem + 78.662vw, 59.019rem);
+  }
+
+  .caixa-Observacao-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(30.763rem, -1.381rem + 89.33vw, 67.209rem);
+    height: clamp(11.025rem, 7.265rem + 10.435vw, 21.523rem);
+    padding: clamp(1.92rem, 0.003rem + 5.333vw, 4.096rem);
+  }
+
+  .observacao-modal-li {
+    width: clamp(26.925rem, -1.332rem + 78.662vw, 59.019rem);
+    font-size: clamp(0.739rem, 0.001rem + 2.053vw, 1.577rem);
+    margin-bottom: clamp(0.296rem, -0rem + 0.821vw, 0.631rem);
+  }
+}

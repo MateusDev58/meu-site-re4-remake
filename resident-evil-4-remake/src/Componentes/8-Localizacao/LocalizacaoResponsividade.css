@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+  .caixa-titulo-localizacao {
+    display: flex;
+    flex-direction: column;
+    padding: 0 clamp(1.91875rem, 5.32vw + 0rem, 4.09219rem);
+    margin: 0rem 0rem clamp(1.92rem, 5.1vw + 0.08rem, 4rem);
+  }
+
+  .vertical-localizacao,
+  .quebra-linha {
+    display: none;
+  }
+
+  .localizacao-span {
+    font-size: clamp(2.88rem, 4.4vw + 2rem, 6rem);
+    margin-bottom: 0rem;
+  }
+
+  .vila-p {
+    font-size: clamp(1.056rem, 2.93vw + 0rem, 2.2528rem);
+  }
+
+  .imagens-localizacao {
+    max-width: clamp(26.398rem, 73.33vw + 0rem, 56.317rem);
+  }
+
+  .custom-pagination .swiper-pagination-bullet {
+    width: clamp(2.88rem, 8vw - 0rem, 6.144rem);
+    height: clamp(0.48rem, 1.33vw + 0rem, 1.023rem);
+  }
+
+  .btn-prev-esquerda,
+  .btn-next-direita {
+    font-size: clamp(3rem, 7.35vw + 0.35rem, 6rem);
+  }
+}

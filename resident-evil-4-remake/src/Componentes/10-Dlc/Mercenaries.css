@@ -1,0 +1,417 @@
+.caixa-the-mercenaries {
+  background-image: url("mercenaries_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  background-color: #0d0d0de0;
+  margin-bottom: clamp(4.80625rem, -0.001rem + 6.251vw, 8.5375rem);
+  position: relative;
+  max-width: clamp(72.094rem, 1.832rem + 91.368vw, 126.656rem);
+  margin-bottom: clamp(4.80625rem, -0.165rem + 6.465vw, 8.5375rem);
+}
+
+.caixa-titulo-dlc-2 {
+  display: flex;
+  gap: clamp(0rem, 1.675vw - 1.288rem, 1rem);
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+  flex-direction: column;
+}
+
+.caixa-info-dlc {
+  display: inline-flex;
+  align-items: center;
+  padding: clamp(0.6rem, 1.06rem - 0.337vw, 0.801042rem);
+  position: relative;
+  margin-top: calc(30px + 1vh);
+  max-width: clamp(14.116rem, -0.015rem + 18.375vw, 25.073rem);
+  height: clamp(3.202rem, -0.001rem + 4.166vw, 5.689rem);
+}
+
+.caixa-info-dlc::before,
+.caixa-info-dlc::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: white;
+  background-image: url("/background-comprar.png");
+  background-repeat: repeat-x;
+  background-size: auto;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.caixa-info-dlc::before {
+  top: 0;
+  box-shadow: 0 4px 0 white;
+}
+
+.caixa-info-dlc::after {
+  bottom: 0;
+  box-shadow: 0 4px 0 white;
+}
+
+.dlc-gratuito-span {
+  font-size: clamp(1.20156rem, -0.001rem + 1.564vw, 2.13438rem);
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  background-image: url(./background-comprar.png);
+  background-color: white;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+  white-space: nowrap;
+}
+
+.divisor-2 {
+  background-color: white;
+  width: 0.1rem;
+  height: clamp(1.8rem, 0.254rem + 2.01vw, 3rem);
+}
+
+.Ja-disponivel-dlc-2 {
+  font-size: clamp(1.60208rem, -0.001rem + 2.085vw, 2.84583rem);
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  background-image: url(./background-comprar.png);
+  background-color: white;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+  white-space: nowrap;
+}
+
+.atualizacao-p {
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.04135rem, 1.354vw, 1.84979rem);
+  color: #ffffff;
+  margin-top: clamp(0.801042rem, 1.042vw, 1.42292rem);
+}
+
+.caixa-texto-mercenaries {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5rem; */
+  gap: clamp(3rem, 2.68vw - 0.662rem, 5rem);
+  max-width: 66.877rem;
+}
+
+.logo-the-mercenaries {
+  width: 100%;
+  max-width: clamp(35.245rem, -0.015rem + 45.848vw, 62.608rem);
+}
+
+.modo-mercenaries-p {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: clamp(0.96125rem, 1.25vw, 1.7075rem);
+  color: #ffffff;
+}
+
+.caixa-conteudo-the-mercenaries {
+  display: flex;
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+  margin-top: 5.69167rem;
+  margin-top: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
+  margin-bottom: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
+}
+
+.swiper-dlc {
+  cursor: grab;
+}
+
+.swiper-dlc:active {
+  cursor: grabbing;
+}
+
+.botao-abrir-modal-the-mercenaries {
+  width: 2.277rem;
+  cursor: pointer;
+}
+
+.caixa-texto-mercenaries-slide {
+  display: flex;
+  flex-direction: column;
+  max-width: clamp(24.847rem, 29.956vw + 1.811rem, 42.731rem);
+  padding-top: clamp(2.40312rem, 3.125vw, 4.26875rem);
+  padding-right: 0rem;
+  padding-bottom: clamp(1.20156rem, 1.5625vw, 2.13438rem);
+  padding-left: 0rem;
+}
+
+.titulo-slide-mercenaries,
+.titulo-atualizacao-span {
+  font-size: clamp(1.60208rem, -0.001rem + 2.085vw, 2.84583rem);
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  background-image: url(./background-comprar.png);
+  background-color: #bb1020;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+  margin-bottom: clamp(0.400521rem, 0.521vw + 0.001rem, 0.711458rem);
+}
+
+.subtitulo-slide-mercenaries {
+  font-size: clamp(1.60208rem, 2.083vw + 0.001rem, 2.84583rem);
+  color: #fff;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  margin-bottom: clamp(0.801042rem, 1.042vw, 1.42292rem);
+}
+
+.texto-slide-mercenaries {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: clamp(0.720937rem, 0.938vw, 1.28063rem);
+  line-height: 2;
+  margin-bottom: 3.42292rem;
+}
+
+.caixa-controles-mercenaries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 50;
+}
+
+.radios-mercenaries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.7rem, 0.503vw + 0.313rem, 1rem);
+}
+
+.radio-mercenaries {
+  display: inline-flex;
+  width: clamp(3.203rem, 4.167vw - 0.001rem, 5.691rem);
+  height: clamp(0.239rem, 0.315vw - 0.003rem, 0.427rem);
+  background-color: #5d0b13;
+  cursor: pointer;
+}
+
+.radio-mercenaries-active {
+  background-color: #bb1020;
+}
+
+.seta-mercenaries {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  width: 1.333rem;
+  cursor: pointer;
+  margin: 0rem clamp(0.720937rem, 0.938vw, 1.28063rem);
+}
+
+.seta-mercenaries-img {
+  width: clamp(0.641rem, 0.832vw + 0.001rem, 1.138rem);
+  height: clamp(1.081rem, 1.405vw - 0.001rem, 1.92rem);
+}
+
+.seta-mercenaries-left img {
+  transform: scaleX(-1);
+}
+
+.caixa-atualizacao-liberada {
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+}
+
+.caixa-titulo-atualizacao {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: clamp(1.60208rem, 2.083vw + 0.001rem, 2.84583rem);
+}
+
+.caixa-titulo-atualizacao span,
+.caixa-titulo-atualizacao p {
+  margin: 0;
+  line-height: 1;
+}
+
+.caixa-titulo-edivisor {
+  display: flex;
+  gap: 1rem;
+}
+
+.divisor-3 {
+  background-color: white;
+  width: 0.1rem;
+  height: clamp(1.561rem, 1.573vw + 0.351rem, 2.5rem);
+}
+
+.atualizacao-liberada {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: clamp(1.04135rem, 1.354vw, 1.84979rem);
+}
+
+.caixa-modos {
+  border: 1px solid rgba(106, 106, 106, 0.4);
+  background-color: #000000;
+  padding: clamp(1rem, 3.35vw - 1.576rem, 3rem);
+  height: clamp(6.855rem, 8.925vw - 0.008rem, 12.183rem);
+  margin-bottom: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
+}
+
+.titilo-ada {
+  font-size: clamp(0.720937rem, 0.938vw, 1.28063rem);
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: clamp(0.8rem, 1.173vw - 0.102rem, 1.5rem);
+}
+
+.caminhos-distintos-li {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: clamp(0.504656rem, 0.656vw, 0.896438rem);
+  margin-bottom: clamp(0.201862rem, 0.262vw + 0.001rem, 0.358575rem);
+}
+
+.caixa-personagens-mercenaries-dlc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
+}
+
+.caixa-personagens-jogaveis {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caixa-personagens-jogaveis::before {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  --ponto-brilho: clamp(3%, 9.69vw - 9.236rem, 40%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.2) var(--ponto-brilho),
+    transparent 70%
+  );
+  filter: blur(4rem);
+  z-index: 0;
+}
+
+.caixa-personagens-jogaveis img {
+  position: relative;
+  z-index: 1;
+}
+
+.Personagens-mercenaries-img {
+  max-width: clamp(11.384rem, 14.399vw - 0.689rem, 19.98rem);
+}
+
+.nome-personagens-mercenaries {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.720937rem, 0.938vw, 1.28063rem);
+}
+
+.nome-personagens-mercenaries-marcado {
+  text-align: center;
+  color: #bb1020;
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.720937rem, 0.938vw, 1.28063rem);
+}
+
+.caixa-bolinha {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.5rem, 0.838vw - 0.144rem, 1rem);
+}
+
+.bolinha-vermelha {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: #bb1020;
+  animation: pulsate 1.5s ease infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(187, 16, 32, 0.7);
+  }
+
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(187, 16, 32, 0);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(187, 16, 32, 0);
+  }
+}
+
+/* modal mercenaries*/
+
+.modal-mercenaries,
+.modal-vr {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  z-index: 999999;
+  padding: clamp(1rem, 3vw, 4rem);
+  isolation: isolate;
+}
+
+.modal-mercenaries button,
+.modal-vr button {
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+  margin-right: 0.6rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 5rem;
+  color: #a59fa0;
+  font-family: "Arimo", sans-serif;
+  z-index: 9999;
+}
+
+.img-modal-mercenaries,
+.img-modal-vr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}

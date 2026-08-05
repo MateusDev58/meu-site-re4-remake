@@ -1,0 +1,198 @@
+@media screen and (max-width: 768px) {
+  .caixa-dlc {
+    position: relative;
+    z-index: 1;
+    margin: 0rem;
+  }
+
+  .caixa-the-mercenaries {
+    background-image: url("mercenaries_bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 100%;
+    padding-top: clamp(20rem, -3.824rem + 66.176vw, 47rem);
+  }
+
+  .caixa-titulo-dlc-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: clamp(2.88rem, 0.001rem + 7.999vw, 6.144rem);
+  }
+
+  .caixa-texto-mercenaries {
+    display: contents;
+  }
+
+  .logo-the-mercenaries {
+    max-width: clamp(30.241rem, 0.0006rem + 83.999vw, 64.513rem);
+    order: 1;
+  }
+
+  .caixa-info-dlc {
+    max-width: clamp(16.266rem, 0.103rem + 44.897vw, 34.584rem);
+    height: clamp(5.031rem, 1.001rem + 11.198vw, 9.6rem);
+    padding: clamp(1.7rem, 0.499rem + 3.333vw, 3.06rem)
+      clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    order: 2;
+  }
+
+  .dlc-gratuito-span {
+    font-size: clamp(1.248rem, -0.001rem + 3.469vw, 2.6624rem);
+  }
+
+  .divisor-2 {
+    height: clamp(1.8rem, -3.104rem + 9.118vw, 3.9rem);
+  }
+
+  .Ja-disponivel-dlc-2 {
+    font-size: clamp(1.632rem, 0.001rem + 4.533vw, 3.4816rem);
+  }
+
+  .atualizacao-p {
+    margin-top: clamp(1.92rem, 0.44rem + 4.107vw, 4.096rem);
+    margin-bottom: clamp(1.92rem, 0.44rem + 4.107vw, 4.096rem);
+    font-size: clamp(1.248rem, -0.003rem + 3.467vw, 2.6624rem);
+    order: 3;
+  }
+
+  .modo-mercenaries-p {
+    max-width: clamp(30.241rem, 0.001rem + 83.999vw, 64.513rem);
+    font-size: clamp(1.152rem, 0.001rem + 3.197vw, 2.4576rem);
+    order: 4;
+  }
+
+  .caixa-conteudo-the-mercenaries {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    margin: 0rem;
+  }
+
+  .caixa-texto-mercenaries-slide {
+    display: contents;
+  }
+
+  .titulo-slide-mercenaries {
+    order: 1;
+    font-size: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    margin-bottom: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .subtitulo-slide-mercenaries {
+    font-size: clamp(2.112rem, -0.005rem + 5.867vw, 4.5056rem);
+    margin-top: clamp(1.92rem, 0.44rem + 4.107vw, 4.096rem);
+    margin-bottom: clamp(1.92rem, 0.44rem + 4.107vw, 4.096rem);
+  }
+
+  .swiper-dlc {
+    order: 2;
+  }
+
+  .subtitulo-slide-mercenaries {
+    order: 3;
+  }
+
+  .texto-slide-mercenaries {
+    order: 3;
+    font-size: clamp(1.056rem, -0.001rem + 2.933vw, 2.2528rem);
+    line-height: 1.9;
+    margin-bottom: clamp(1.056rem, -0.001rem + 2.933vw, 2.2528rem);
+  }
+
+  .caixa-controles-mercenaries {
+    display: flex;
+    align-self: center;
+    order: 3;
+    margin-top: 2rem;
+  }
+
+  .radios-mercenaries {
+    gap: clamp(1rem, 0.559rem + 1.225vw, 1.5rem);
+  }
+
+  .radio-mercenaries {
+    display: inline-flex;
+    width: clamp(3.839rem, -0.003rem + 10.667vw, 8.191rem);
+    height: clamp(0.48rem, -0.001rem + 1.331vw, 1.023rem);
+    background-color: #5d0b13;
+  }
+
+  .radio-mercenaries-active {
+    background-color: #bb1020;
+  }
+
+  .seta-mercenaries-img {
+    width: clamp(0.767rem, -0.001rem + 2.135vw, 1.638rem);
+    height: clamp(1.295rem, -0.001rem + 3.601vw, 2.764rem);
+  }
+
+  .caixa-atualizacao-liberada {
+    margin-top: 4.096rem;
+    padding: 0rem clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .caixa-titulo-atualizacao {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: clamp(1.92rem, 0.086rem + 5.098vw, 4rem);
+  }
+
+  .titulo-atualizacao-span {
+    font-size: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    margin-bottom: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .caixa-titulo-edivisor {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .divisor-3 {
+    height: clamp(1.872rem, -0.001rem + 5.201vw, 3.994rem);
+  }
+
+  .atualizacao-liberada {
+    font-size: clamp(1.248rem, -0.003rem + 3.467vw, 2.6624rem);
+  }
+
+  .caixa-modos {
+    height: clamp(12.861rem, -0.012rem + 35.738vw, 27.442rem);
+    padding: clamp(2rem, -0.647rem + 7.353vw, 5rem);
+    margin-bottom: clamp(4rem, 2.235rem + 4.902vw, 6rem);
+  }
+
+  .titilo-ada {
+    font-size: clamp(1.056rem, -0.002rem + 2.934vw, 2.2528rem);
+  }
+
+  .caminhos-distintos-li {
+    font-size: clamp(0.7392rem, -0.0016rem + 2.058vw, 1.57696rem);
+  }
+
+  .caixa-personagens-mercenaries-dlc {
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: clamp(2rem, -0.647rem + 7.353vw, 5rem);
+  }
+
+  .Personagens-mercenaries-img {
+    max-width: clamp(10.72rem, -0.012rem + 29.811vw, 22.869rem);
+  }
+
+  .nome-personagens-mercenaries,
+  .nome-personagens-mercenaries-marcado {
+    font-size: clamp(1.056rem, -0.002rem + 2.934vw, 2.2528rem);
+  }
+
+  .caixa-separate-ways::after,
+  .caixa-the-mercenaries::after {
+    width: 100%;
+  }
+}

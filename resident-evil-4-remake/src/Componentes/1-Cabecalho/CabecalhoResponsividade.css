@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  .caixa-lista-cabecalho {
+    padding: 0rem;
+  }
+
+  .botao-hamburger-menu {
+    display: flex;
+  }
+
+  .lista-ul-cabecalho,
+  .comprar {
+    display: none;
+  }
+
+  .comprar-2 {
+    font-size: clamp(2.112rem, 0.007rem + 5.852vw, 4.49973rem);
+  }
+}

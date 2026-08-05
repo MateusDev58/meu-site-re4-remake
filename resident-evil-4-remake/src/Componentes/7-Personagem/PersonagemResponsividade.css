@@ -1,0 +1,151 @@
+@media screen and (min-width: 1404px) {
+  .caixa-personagem {
+    padding: 8rem 0rem 8.5rem;
+  }
+
+  .caixa-foto-personagem {
+    margin: 0rem 1.24688rem 3.13333rem 17.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-personagem {
+    padding-top: clamp(3.8375rem, calc(4.366vw + 2.26574rem), 5.61875rem);
+    padding-bottom: clamp(3.8375rem, calc(4.366vw + 2.26574rem), 5.61875rem);
+    padding-inline: clamp(0rem, 5.327vw, 4.09219rem);
+    margin: 0;
+    width: 100%;
+  }
+
+  .personagem-span {
+    font-size: clamp(2.88rem, calc(7.647vw + 0.12708rem), 6rem);
+    margin: 0rem;
+  }
+
+  .caixa-foto-personagem {
+    margin-top: 0;
+    margin-left: 0rem;
+    margin-bottom: clamp(1.6rem, 2.2vw, 2.8rem);
+    margin-right: 0rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 68.6rem;
+    max-width: 100%;
+  }
+
+  .lista-galeria-personagem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 0;
+  }
+
+  .espaco-vazio {
+    display: none;
+  }
+
+  .lista-galeria-personagem li {
+    flex: 1 1 calc(25% - 0.5rem);
+    max-width: 25%;
+    height: clamp(4.059rem, calc(11vw + 0.099rem), 8.547rem);
+  }
+
+  .personagem-galeria-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .nome-miminiatura {
+    font-size: clamp(0.864rem, calc(2.294vw + 0.03816rem), 1.8rem);
+  }
+
+  .imagens-carrossel {
+    max-width: clamp(32.3rem, calc(89.216vw + 0.18224rem), 68.7rem);
+    height: clamp(35.728rem, calc(98.7vw + 0.196rem), 75.992rem);
+  }
+
+  .caixa-titulo-personagem {
+    background-color: #0c1314;
+  }
+
+  .info-personagem {
+    max-width: none;
+    max-width: clamp(32.3rem, calc(89.216vw + 0.18224rem), 68.7rem);
+    position: absolute;
+    top: auto;
+    right: auto;
+    left: 1rem;
+    bottom: 0rem;
+    padding-top: clamp(1.44rem, 4vw, 3.072rem);
+    padding-right: clamp(2.88rem, 8vw, 6.144rem);
+    padding-bottom: clamp(1.92rem, 5.333vw, 4.096rem);
+    padding-left: clamp(2.88rem, 8vw, 6.144rem);
+    z-index: 2;
+  }
+
+  .nome-personagem-carrossel {
+    font-size: clamp(4.608rem, calc(12.235vw + 0.2034rem), 9.6rem);
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .quebrar-linha {
+    white-space: pre-line;
+  }
+
+  .descricao {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+    max-width: none;
+    width: clamp(26.541rem, calc(73.216vw + 0.18324rem), 56.413rem);
+    line-height: 2;
+  }
+
+  .expandir-imagem {
+    width: clamp(1.536rem, calc(1.8162vw + 0.8822rem), 2.277rem);
+    cursor: pointer;
+  }
+
+  .indicador-imagens {
+    position: absolute;
+    top: 1rem;
+    left: auto;
+    right: 1rem;
+    color: white;
+    height: fit-content;
+  }
+
+  .seta-personagem {
+    position: absolute;
+    top: 35%;
+  }
+
+  .caixa-swiper {
+    padding: 0;
+  }
+
+  .swiper-slide {
+    background-color: #0c1314;
+  }
+
+  .container-slide {
+    background-color: #0c1314;
+  }
+
+  .caixa-titulo-personagem {
+    background-color: #0c1314;
+  }
+
+  .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0 !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .caixa-barras {
+    display: none;
+  }
+}

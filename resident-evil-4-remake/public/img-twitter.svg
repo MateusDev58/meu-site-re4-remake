@@ -1,0 +1,15 @@
+<svg id="X_のコピー" data-name="X のコピー" xmlns="http://www.w3.org/2000/svg" width="62.813" height="62.813" viewBox="0 0 62.813 62.813">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="楕円形_1" data-name="楕円形 1" class="cls-1" cx="31.406" cy="31.406" r="31.406"/>
+  <path id="シェイプ_1" data-name="シェイプ 1" class="cls-2" d="M79.224,178.515l11.81-13.723h-2.8L77.98,176.708l-8.19-11.916H60.344l12.385,18.019L60.344,197.2h2.8l10.829-12.583L82.621,197.2h9.446L79.223,178.515h0ZM75.39,182.97l-1.255-1.795L64.151,166.9h4.3l8.058,11.522,1.255,1.8,10.474,14.977h-4.3L75.39,182.97h0Z" transform="translate(-44.781 -148.781)"/>
+</svg>

@@ -1,0 +1,183 @@
+@media screen and (max-width: 769px) {
+  .caixa-conteudo-baixavel-dlc {
+    gap: 1rem;
+  }
+
+  .caixa-pago-disponivel {
+    gap: 1rem;
+  }
+
+  .caixa-titulo-dlc {
+    gap: 3rem;
+  }
+
+  .texto-dlc {
+    line-height: 2.5;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets {
+    left: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-dlc {
+    position: relative;
+    z-index: 1;
+    margin: 0rem;
+  }
+
+  .caixa-conteudo-baixavel-dlc {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem clamp(1.91875rem, 0.001rem + 5.327vw, 4.09219rem);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: clamp(1.92rem, 0.085rem + 5.098vw, 4rem);
+  }
+
+  .conteudo-baixavel-span-dlc {
+    font-size: clamp(2.88rem, 0.127rem + 7.647vw, 6rem);
+    margin-bottom: clamp(0.96rem, 0.0014rem + 2.667vw, 2.048rem);
+  }
+
+  .texto-dlcs {
+    font-size: clamp(1.056rem, -0.001rem + 2.933vw, 2.2528rem);
+    max-width: clamp(36rem, 7.221rem + 79.941vw, 68.616rem);
+  }
+
+  .vertical-dlc {
+    display: none;
+  }
+
+  .caixa-separate-ways {
+    position: relative;
+    background-image: url("separateways_bg-768.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 100%;
+    padding-top: clamp(20rem, -3.824rem + 66.176vw, 47rem);
+  }
+
+  .caixa-separate-ways::after {
+    width: 100%;
+  }
+
+  .caixa-titulo-dlc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: clamp(2.88rem, 0.001rem + 7.999vw, 6.144rem);
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .caixa-dlc-pago {
+    max-width: clamp(16.266rem, 0.103rem + 44.897vw, 34.584rem);
+    height: clamp(5.031rem, 1.001rem + 11.198vw, 9.6rem);
+    padding: clamp(1.7rem, 0.499rem + 3.333vw, 3.06rem)
+      clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    order: 2;
+  }
+
+  .dlc-pago-span {
+    font-size: clamp(1.248rem, -0.001rem + 3.469vw, 2.6624rem);
+  }
+
+  .divisor {
+    height: clamp(1.8rem, -3.104rem + 9.118vw, 3.9rem);
+  }
+
+  .Ja-disponivel-dlc {
+    font-size: clamp(1.632rem, 0.001rem + 4.533vw, 3.4816rem);
+  }
+
+  .missao-exige-p {
+    max-width: clamp(30.241rem, 0.001rem + 83.999vw, 64.513rem);
+    font-size: clamp(1.152rem, 0.001rem + 3.197vw, 2.4576rem);
+    order: 3;
+  }
+
+  .separateways_logo {
+    max-width: clamp(30.241rem, 0.0006rem + 83.999vw, 64.513rem);
+  }
+
+  .caixa-swiper-dlc,
+  .caixa-swiper-dlc-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    gap: 3rem;
+    margin: 0rem;
+  }
+
+  .caixa-swiper-dlc-2::before {
+    content: "CAMINHOS DISTINTOS";
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    background-image: url(./background-comprar.png);
+    background-color: #bb1020;
+    background-position: left top;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+    font-size: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    margin-top: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .img-swiper-dlc,
+  .caixa-swiper-img,
+  .caixa-swiper-img-2 {
+    max-width: clamp(32.2rem, 0.082rem + 89.216vw, 68.6rem);
+  }
+
+  .caixa-texto-historia-dlc,
+  .caixa-texto-historia-dlc-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: clamp(32.163rem, 0.005rem + 89.328vw, 68.609rem);
+    margin: 0rem;
+  }
+
+  .historia-span-dlc {
+    font-size: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+    margin-bottom: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .caminhos-distintos-span {
+    display: none;
+  }
+
+  .texto-dlc {
+    font-size: clamp(1.056rem, -0.001rem + 2.933vw, 2.2528rem);
+    line-height: 1.9;
+    margin-bottom: clamp(1.056rem, -0.001rem + 2.933vw, 2.2528rem);
+  }
+
+  .jogabilidade-dlc {
+    font-size: clamp(2.112rem, 0.001rem + 5.867vw, 4.5056rem);
+    margin-bottom: clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .botao-abrir-modal-separateways {
+    width: clamp(1.536rem, 4.267vw, 3.277rem);
+    height: clamp(1.536rem, 4.267vw, 3.277rem);
+    display: block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .caixa-dlc-pago {
+    margin: 0rem;
+  }
+
+  .caixa-titulo-dlc {
+    gap: 5rem;
+  }
+}

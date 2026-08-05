@@ -1,0 +1,84 @@
+.caixa-footer {
+  position: relative;
+  z-index: 1;
+  max-width: 136rem;
+  border-top: solid 0.1rem #4a4a4a;
+  margin-top: 2.80938rem;
+  width: 100%;
+}
+
+.caixa-conteudo-footer {
+  padding: clamp(0.72094rem, 0.9375vw, 1.28063rem)
+    clamp(1.44187rem, 1.875vw, 2.56125rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo-marca-capcom {
+  width: 13.25rem;
+}
+
+.caixa-logo-footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.lista-ul-footer {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-li-footer {
+  display: flex;
+  align-items: center;
+}
+
+.lista-li-footer::before {
+  content: "\25B8";
+  color: #bb1020;
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-right: 0.4rem;
+}
+
+.lista-a-footer {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.lista-a-footer:hover {
+  text-decoration: underline;
+}
+
+.footer-p {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.capcom {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.trademarks-a {
+  text-decoration: underline;
+  font-size: 1.1rem;
+  color: #bb1020;
+}

@@ -1,0 +1,128 @@
+@media screen and (max-width: 1024px) {
+  .conteudo-acao {
+    padding: 0rem;
+  }
+
+  .caixa-titulo-jogabilidade {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+  }
+
+  .vertical-localizacao {
+    height: 4rem;
+  }
+
+  .caixa-acao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem clamp(1.59844rem, -0.0016rem + 2.0806vw, 2.12656rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-titulo-jogabilidade {
+    display: flex;
+    flex-direction: column;
+    padding: 0 clamp(1.91875rem, 0.001rem + 5.327vw, 4.09219rem);
+    margin: 0rem 0rem clamp(1.92rem, 0.0847rem + 5.098vw, 4rem);
+  }
+
+  .jogabilidade-span {
+    font-size: clamp(2.88rem, 0.127rem + 7.647vw, 6rem);
+  }
+
+  .caminho-p {
+    font-size: clamp(1.056rem, -0.0014rem + 2.933vw, 2.2528rem);
+  }
+
+  .caixa-acao {
+    padding: clamp(2.87969rem, -0.0003rem + 7.999vw, 6.14375rem)
+      clamp(1.91875rem, 0.001rem + 5.327vw, 4.09219rem);
+    margin: 0rem;
+  }
+
+  .caixa-acao.caixa-recursos {
+    padding: clamp(2.87969rem, -0.0003rem + 7.999vw, 6.14375rem)
+      clamp(1.91875rem, 0.001rem + 5.327vw, 4.09219rem);
+    /* margin-bottom: 8.192rem; */
+  }
+
+  .conteudo-acao,
+  .conteudo-acao.invertido,
+  .caixa-acao {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .caixa-texto-acao,
+  .caixa-texto-recursos {
+    display: contents;
+  }
+
+  .titulo-acao {
+    order: 1;
+    font-size: clamp(1.92rem, 0.0014rem + 5.329vw, 4.096rem);
+    margin-bottom: clamp(1.92rem, 0.0014rem + 5.329vw, 4.096rem);
+  }
+
+  .container-video {
+    order: 2;
+    width: 100%;
+    max-width: clamp(32.2rem, 89.216vw + 0.082rem, 68.6rem);
+  }
+
+  .descricao-acao {
+    order: 3;
+    font-size: clamp(2.112rem, 5.867vw, 4.5056rem);
+    margin-bottom: clamp(0.96rem, 2.667vw, 2.048rem);
+  }
+
+  .texto-acao {
+    order: 4;
+    font-size: clamp(1.056rem, -0.0014rem + 2.933vw, 2.2528rem);
+    max-width: clamp(32.2rem, 89.323vw, 68.6rem);
+  }
+
+  .caixa-controle-acao {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    order: 5;
+    margin-top: 2rem;
+  }
+
+  .barra {
+    width: clamp(4rem, 10.272vw + 0.302rem, 8.191rem);
+    height: clamp(0.3rem, 0.77vw + 0.023rem, 0.614rem);
+  }
+
+  .barra.ativa {
+    background: #bb1020;
+    height: clamp(0.5rem, 0.279vw + 0.399rem, 0.614rem);
+  }
+
+  .seta-acao {
+    background: transparent;
+    border: none;
+    color: #bb1020;
+    font-size: clamp(3rem, 7.353vw + 0.353rem, 6rem);
+    cursor: pointer;
+  }
+
+  .swiper-jogabilidade .swiper-slide {
+    width: auto !important;
+    max-width: none !important;
+    background: none !important;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .caixa-acao.caixa-recursos::before {
+    width: 100rem;
+  }
+}

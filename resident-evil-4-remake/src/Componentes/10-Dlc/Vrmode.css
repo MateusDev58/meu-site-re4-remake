@@ -1,0 +1,273 @@
+.caixa-vr {
+  background-image: url("vrmode_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  background-color: #0d0d0de0;
+  margin-bottom: clamp(4.80625rem, -0.001rem + 6.251vw, 8.5375rem);
+  position: relative;
+  max-width: clamp(72.094rem, 1.832rem + 91.368vw, 126.656rem);
+  margin-bottom: clamp(4.80625rem, -0.165rem + 6.465vw, 8.5375rem);
+}
+
+.caixa-titulo-vr {
+  display: flex;
+  gap: clamp(0rem, 1.675vw - 1.288rem, 1rem);
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+  flex-direction: column;
+  gap: clamp(3rem, 0.424rem + 3.35vw, 5rem);
+}
+
+.caixa-logo-vr {
+  display: flex;
+  flex-direction: column;
+  max-width: clamp(29.638rem, -0.016rem + 38.562vw, 52.647rem);
+  gap: 2rem;
+}
+
+.logo-vrmode-img {
+  width: 100%;
+  max-width: clamp(35.245rem, -0.015rem + 45.848vw, 62.608rem);
+}
+
+.logo-playstation-vr-img {
+  width: 100%;
+  max-width: clamp(14.419rem, -0.003rem + 18.754vw, 25.613rem);
+  height: auto;
+  display: flex;
+  align-self: center;
+}
+
+.caixa-botao-vr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: clamp(2.69167rem, -1.168rem + 5.02vw, 5.69167rem);
+}
+
+.PlayStation-vr2-p {
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+  line-height: 1.6;
+  font-size: clamp(0.96125rem, 1.25vw, 1.7075rem);
+  color: #ffffff;
+  max-width: clamp(37.648rem, -0.015rem + 48.974vw, 66.877rem);
+}
+
+.baixe-aqui {
+  position: relative;
+  overflow: hidden;
+  font-family: "EB Garamond", serif;
+  color: #ffffff;
+  background-color: #0248a0;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  white-space: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: clamp(0.721rem, 0.937vw, 1.281rem);
+  padding: clamp(0.801rem, 1.041vw, 1.423rem);
+  max-width: clamp(22.39rem, 259.43rem - 17.354vw, 125.98rem);
+  height: clamp(2.68rem, -0.009rem + 3.497vw, 4.766rem);
+}
+
+.baixe-aqui::after,
+.download-da-demo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(/background-comprar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.caixa-demo-gratuita {
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+}
+
+.caixa-demo-vr {
+  max-width: 115.075rem;
+  background-color: #000000;
+  border: solid 0.1rem #333333;
+  height: clamp(15.089rem, 19.124vw, 26.508rem);
+  padding: clamp(2rem, 0.71rem + 1.675vw, 3rem) 0rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo-demo-h3 {
+  font-size: clamp(1.602rem, 2.083vw, 2.846rem);
+  color: #ffffff;
+  font-family: "EB Garamond", serif;
+  margin-bottom: clamp(0.801rem, 1.041vw, 1.423rem);
+  /* text-align: center; */
+}
+
+/* .titulo-demo-h3-span {
+  font-family: "EB Garamond", serif;
+  background-image: url(./background-comprar.png);
+  background-color: #bb1020;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+} */
+
+.titulo-demo-h3-span {
+  font-family: "EB Garamond", serif;
+  background-image: url(./background-comprar.png);
+  background-color: #bb1020;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.caixa-texto-vr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2.84583rem;
+}
+
+.demo-gratuita-p {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: clamp(0.720937rem, 0.938vw, 1.28063rem);
+  line-height: 2;
+  text-align: center;
+}
+
+.download-da-demo {
+  position: relative;
+  overflow: hidden;
+  font-family: "EB Garamond", serif;
+  color: #ffffff;
+  background-color: #0248a0;
+  font-size: clamp(0.721rem, 0.937vw, 1.281rem);
+  padding: clamp(0.801rem, 1.041vw, 1.423rem);
+  height: clamp(2.68rem, 3.492vw, 4.766rem);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  white-space: nowrap;
+}
+
+.caixa-conteudo-vr {
+  display: flex;
+  margin-top: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
+  margin-bottom: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
+  /* cursor: grab; */
+}
+
+/* .caixa-conteudo-vr:active {
+  cursor: grabbing;
+} */
+
+.swiper-dlc,
+.swiper-imagens-mercenaries,
+.slide-img-dlc,
+.swiper-slide {
+  overflow: visible;
+}
+
+.slide-img-dlc {
+  position: relative;
+}
+
+.swiper-imagens-mercenaries {
+  position: relative;
+}
+
+.botao-modal-vr {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  background-color: transparent;
+  border: none;
+  z-index: 999999;
+  cursor: pointer;
+}
+
+.botao-abrir-modal-vr {
+  width: 2.277rem;
+  cursor: pointer;
+}
+
+.caixa-resident-evil-4-vr {
+  padding-bottom: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
+}
+
+.caixa-traco {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.960469rem;
+}
+
+.resident-evil-4-h3 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: clamp(0.721rem, 0.937vw, 1.281rem);
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  position: relative;
+  line-height: 1.2;
+}
+
+.resident-evil-4-h3-small {
+  font-size: clamp(0.721rem, 0.937vw, 1.281rem);
+}
+
+.resident-evil-4-h3::before {
+  content: "";
+  position: absolute;
+  width: 1.067rem;
+  height: 0.2rem;
+  background-color: #bb2010;
+  /* margin-right: 0.711458rem; */
+  left: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.resident-evil-4-h3-br {
+  display: none;
+}
+
+.lista-sistema-ul {
+  display: flex;
+  margin-bottom: 0.711458rem;
+}
+
+.lista-sistema-li {
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: clamp(0.641rem, 0.833vw, 1.138rem);
+  margin-right: clamp(1.282rem, 1.667vw, 2.277rem);
+  letter-spacing: 0.1rem;
+}
+
+.lista-acesso-li {
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0.318733rem;
+  font-size: clamp(0.641rem, 0.833vw, 1.138rem);
+  letter-spacing: 0.1rem;
+}

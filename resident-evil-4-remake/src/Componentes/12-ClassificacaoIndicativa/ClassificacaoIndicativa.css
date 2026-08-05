@@ -1,0 +1,82 @@
+.caixa-classificacao-indicativa {
+  position: relative;
+  z-index: 1;
+  max-width: 136rem;
+  background-color: #01030498;
+  margin: clamp(1.798rem, 1.418rem + 0.049vw, 2.094rem) 0rem;
+  padding: clamp(2.398rem, 0.06rem + 0.304vw, 4.214rem) 0rem;
+  height: clamp(12.534rem, -3.541rem + 20.9vw, 25.031rem);
+}
+
+.caixa-conteudo-classificacao-indicativa {
+  margin: 0rem clamp(1.539rem, -16.422rem + 23.356vw, 15.483rem);
+  padding: 0rem clamp(1.598rem, -0.012rem + 2.091vw, 2.846rem);
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: clamp(1.001rem, -0.001rem + 1.299vw, 1.779rem);
+}
+
+.logo-resident-evil-4-remake-classificacao {
+  width: clamp(16.138rem, 7.962rem + 10.632vw, 22.494rem);
+}
+
+.lista-classificacao-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 21.827rem;
+}
+
+.item-classificacao {
+  position: relative;
+  color: #ffffff;
+  padding-bottom: 0.569167rem;
+  margin-bottom: 0.569167rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: clamp(0.641rem, 0.001rem + 0.832vw, 1.138rem);
+  letter-spacing: 0.1rem;
+  white-space: nowrap;
+}
+
+.item-classificacao::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.1rem;
+  background: #4a4a4a;
+}
+
+.lista-2-classificacao-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 38.677rem;
+}
+
+.img-classificacao-18-anos {
+  width: 7.1rem;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8));
+}
+
+.jaqueta-bomber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-size: clamp(0.561rem, 0.001rem + 0.728vw, 0.996rem);
+}
+
+.capa-jogo-classificacao {
+  width: 27.997rem;
+}

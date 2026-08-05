@@ -1,0 +1,380 @@
+.caixa-dlc {
+  max-width: 136rem;
+  position: relative;
+  z-index: 1;
+  padding-top: clamp(3.2rem, 4.02vw + 0.11rem, 5.62rem);
+  /* padding-bottom: clamp(3.4rem, 4.29vw + 0.1rem, 5.97rem); */
+  margin: 0 clamp(2.69167rem, 1.675vw + 1.403rem, 3.69167rem);
+}
+
+.caixa-conteudo-baixavel-dlc {
+  display: flex;
+  gap: 3rem;
+  margin: 0 clamp(3.076rem, 17.89vw - 10.68rem, 18.3rem)
+    clamp(1.602rem, 1.46vw + 0.47rem, 2.845rem);
+}
+
+.vertical-dlc {
+  width: 0.1rem;
+  height: clamp(2.881rem, 7.905vw - 3.198rem, 7.6rem);
+  background-color: white;
+}
+
+.texto-dlcs {
+  font-size: clamp(0.720937rem, 0.9375vw, 1.28063rem);
+  color: #ffffff;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  line-height: 2;
+  max-width: 66.98rem;
+}
+
+.caixa-separate-ways {
+  background-image: url("separateways_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  background-color: #0d0d0de0;
+  margin-bottom: clamp(4.80625rem, -0.165rem + 6.465vw, 8.5375rem);
+  position: relative;
+  max-width: clamp(72.094rem, 1.832rem + 91.368vw, 126.656rem);
+}
+
+.caixa-separate-ways::after,
+.caixa-the-mercenaries::after,
+.caixa-vr::after {
+  content: "";
+  position: absolute;
+  width: clamp(72.094rem, 1.832rem + 91.368vw, 126.656rem);
+  height: 0.1rem;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("/background-comprar.png");
+  background-color: #bb1020;
+  z-index: 2;
+}
+
+.caixa-titulo-dlc {
+  display: flex;
+  gap: 6rem;
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+  flex-direction: column;
+}
+
+.caixa-dlc-pago {
+  display: inline-flex;
+  align-items: center;
+  padding: clamp(0.6rem, 1.06rem - 0.337vw, 0.801042rem);
+  position: relative;
+  margin-top: calc(30px + 1vh);
+  max-width: clamp(14.116rem, -0.015rem + 18.375vw, 25.073rem);
+  height: clamp(3.202rem, -0.001rem + 4.166vw, 5.689rem);
+}
+
+.caixa-dlc-pago::before,
+.caixa-dlc-pago::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #bb1020;
+  background-image: url("/background-comprar.png");
+  background-repeat: repeat-x;
+  background-size: auto;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.caixa-dlc-pago::before {
+  top: 0;
+  box-shadow: 0 4px 0 #6e0d18;
+}
+
+.caixa-dlc-pago::after {
+  bottom: 0;
+  box-shadow: 0 4px 0 #6e0d18;
+}
+
+.caixa-pago-disponivel {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dlc-pago-span {
+  font-size: clamp(1.20156rem, -0.001rem + 1.564vw, 2.13438rem);
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  color: #bb1020;
+  background-image: url(./background-comprar.png);
+  background-color: #bb1020;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+  white-space: nowrap;
+}
+
+.jogabilidade-dlc {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(1.60208rem, -0.001rem + 2.085vw, 2.84583rem);
+  margin-bottom: clamp(0.801042rem, -0.001rem + 1.043vw, 1.42292rem);
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+.divisor {
+  background-color: #bb1020;
+  width: 0.1rem;
+  height: clamp(1.8rem, 0.254rem + 2.01vw, 3rem);
+}
+
+.Ja-disponivel-dlc {
+  font-size: clamp(1.60208rem, -0.001rem + 2.085vw, 2.84583rem);
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  color: #bb1020;
+  background-image: url(./background-comprar.png);
+  background-color: #bb1020;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+  white-space: nowrap;
+}
+
+.separateways_logo {
+  max-width: clamp(35.245rem, -0.015rem + 45.848vw, 62.608rem);
+}
+
+.missao-exige-p {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: clamp(0.96125rem, -0.001rem + 1.25vw, 1.7075rem);
+  max-width: clamp(37.648rem, -0.015rem + 48.974vw, 66.877rem);
+  line-height: 1.6;
+  margin-bottom: 1.28063rem;
+}
+
+.caixa-swiper-dlc {
+  position: relative;
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+  margin-bottom: clamp(3.20417rem, -0.001rem + 4.168vw, 5.69167rem);
+  display: flex;
+  align-items: center;
+}
+
+.caixa-swiper-dlc-2 {
+  position: relative;
+  padding: 0 clamp(3.2rem, 0.008rem + 4.15vw, 5.69rem);
+  padding-bottom: clamp(3.20417rem, -0.001rem + 4.168vw, 5.69167rem);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.slide-img-dlc {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-swiper-dlc {
+  width: 100%;
+  max-width: clamp(37.6rem, -0.198rem + 49.079vw, 66.9rem);
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.caixa-swiper-img,
+.caixa-swiper-img-2 {
+  position: relative;
+  max-width: clamp(37.6rem, -0.198rem + 49.079vw, 66.9rem);
+  z-index: 1;
+}
+
+.botao-abrir-modal-separateways {
+  width: 2.277rem;
+  cursor: pointer;
+}
+
+.botao-modal,
+.botao-modal-2 {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.modal-separateways {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  z-index: 9999;
+  padding: clamp(1rem, 3vw, 4rem);
+}
+
+.botaofecharmodalSeparateWays-1,
+.botaofecharmodalSeparateWays-2 {
+  position: absolute;
+  right: 5rem;
+  top: 1rem;
+  margin-right: 0.6rem;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 5rem;
+  color: #a59fa0;
+  font-family: "Arimo", sans-serif;
+}
+
+.img-modal-separateways {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.caixa-texto-historia-dlc {
+  max-width: clamp(24.834rem, 1.776rem + 29.983vw, 42.706rem);
+  margin-left: clamp(3.20417rem, 4.16667vw, 5.69167rem);
+}
+
+.caixa-texto-historia-dlc-2 {
+  max-width: clamp(24.834rem, 1.776rem + 29.983vw, 42.706rem);
+  margin-right: clamp(3.20417rem, 4.16667vw, 5.69167rem);
+}
+
+.historia-span-dlc,
+.caminhos-distintos-span {
+  font-size: clamp(1.60208rem, -0.001rem + 2.085vw, 2.84583rem);
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  background-image: url(./background-comprar.png);
+  background-color: #bb1020;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.texto-dlc {
+  font-size: clamp(0.720937rem, -0.001rem + 0.938vw, 1.28063rem);
+  margin-bottom: clamp(0.720937rem, -0.001rem + 0.938vw, 1.28063rem);
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  line-height: 2;
+}
+
+/* Swiper DLC */
+
+.swiper-pagination {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets::before {
+  content: "IMAGES";
+  color: #fff;
+  margin-right: 1rem;
+  font-size: clamp(0.720937rem, -0.001rem + 0.938vw, 1.28063rem);
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+/* numeros 1 2 3  */
+
+.bullet-dlc,
+.bullet-dlc-2 {
+  font-size: clamp(0.720937rem, -0.001rem + 0.938vw, 1.28063rem);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(1.241rem, 0.003rem + 1.61vw, 2.2rem);
+  height: clamp(1.241rem, 0.003rem + 1.61vw, 2.2rem);
+  color: #fff;
+  background: transparent;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+@property --progresso {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+
+.swiper-dlc .bullet-dlc-active,
+.swiper-dlc-2 .bullet-dlc-2-active {
+  position: relative;
+  display: inline-flex;
+  color: #ffffff;
+}
+
+.swiper-dlc .bullet-dlc-active::after,
+.swiper-dlc-2 .bullet-dlc-2-active::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  -webkit-mask: url("borda-circular.svg") center / contain no-repeat;
+  mask: url("borda-circular.svg") center / contain no-repeat;
+  background: conic-gradient(
+    currentColor 0% var(--progresso),
+    transparent var(--progresso) 100%
+  );
+  filter: brightness(1.2);
+  transform: rotate(-90deg);
+  animation: borderFill 3s linear forwards;
+}
+
+@keyframes borderFill {
+  from {
+    --progresso: 0%;
+  }
+  to {
+    --progresso: 100%;
+  }
+}

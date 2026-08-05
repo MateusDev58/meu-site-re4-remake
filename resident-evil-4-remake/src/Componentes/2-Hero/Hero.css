@@ -1,0 +1,202 @@
+.caixa-hero {
+  position: relative;
+  max-width: 136rem;
+  margin: 0 auto;
+  height: 100vh;
+  /* margin-top: 10rem; */
+}
+
+.caixa-playstation-panther {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: 3%;
+  left: 1%;
+}
+
+.playstation-panther {
+  width: clamp(4.966rem, 6.459vw - 0.001rem, 8.822rem);
+  height: clamp(4.355rem, 5.667vw - 0.003rem, 7.738rem);
+}
+
+.playstation-panther-user {
+  width: clamp(4.966rem, 6.459vw - 0.001rem, 8.822rem);
+  height: clamp(3.898rem, 5.07vw - 0.001rem, 6.925rem);
+}
+
+.caixa-info-hero {
+  position: absolute;
+  right: 0;
+  top: 18%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  width: clamp(13.561rem, -0.00096rem + 17.62982vw, 24.086rem);
+  height: clamp(4.119rem, -0.0042rem + 5.36181vw, 7.32rem);
+  padding: clamp(0.801042rem, -0.03362rem + 1.08668vw, 1.44979rem);
+}
+
+.caixa-info-hero::before,
+.caixa-info-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #b91020;
+  background-image: url("/background-comprar.png");
+  background-repeat: repeat-x;
+  background-size: auto;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.caixa-info-hero::before {
+  top: 0;
+  box-shadow: 0 4px 0 #b91020;
+}
+
+.caixa-info-hero::after {
+  bottom: 0;
+  box-shadow: 0 -4px 0 #b91020;
+}
+
+.pattern-inside-top-hero,
+.pattern-inside-bottom-hero {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #b91020;
+  background-image: url("/background-comprar.png");
+  background-repeat: repeat-x;
+  background-size: auto;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.pattern-inside-top-hero {
+  top: 0;
+}
+
+.pattern-inside-bottom-hero {
+  bottom: 0;
+}
+
+.texto-info-hero {
+  font-size: clamp(1.04135rem, -0.0000738rem + 1.35417vw, 1.84979rem);
+  color: #ffffff;
+  font-family: "Teko", sans-serif;
+  font-weight: 500;
+}
+
+.texto-info-hero-destaque {
+  font-size: clamp(1.24963rem, -0.000088rem + 1.625vw, 2.21975rem);
+  color: #b91020;
+  font-family: "Teko", sans-serif;
+  font-weight: 500;
+}
+
+.caixa-pago-disponivel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.caixa-pago-disponivel p {
+  font-family: "Teko", sans-serif;
+  font-size: 1.78885rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  max-width: 18.734rem;
+}
+
+.caixa-rede-social {
+  position: absolute;
+  right: 2rem;
+  margin-top: calc(80px + 25vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  z-index: 20;
+}
+
+.siga-nos-p {
+  color: #ffffff;
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 1.37604rem;
+  writing-mode: vertical-rl;
+}
+
+.linha-horizontal {
+  width: 3rem;
+  height: 0.1rem;
+  background: #ffffff;
+  text-align: center;
+  transform: translateX(5%);
+}
+
+.icone-rede-social {
+  width: 1.786rem;
+  height: auto;
+}
+
+.caixa-logo-marca {
+  position: absolute;
+  /* top: calc(110px + 10vh); */
+  top: 40%;
+  left: 30%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 10;
+  margin: 0rem 3rem;
+}
+
+.logo-resident-evil-4-remake-img {
+  width: clamp(31.836rem, 1.258rem + 39.707vw, 54.747rem);
+}
+
+.logo-marca-playstation-hero {
+  width: 100%;
+  width: 11.211rem;
+  height: auto;
+}
+
+.logo-marca-xbox-hero {
+  width: 10.775rem;
+}
+
+.logo-marca-steam {
+  width: 9.409rem;
+}
+
+.ja-disponivel-span {
+  background-color: #bb1020;
+  background-image: url("/background-comprar.png");
+  background-position: left top;
+  background-size: 1000px;
+  background-repeat: repeat;
+  font-family: "Teko", sans-serif;
+  font-size: clamp(2.40312rem, -1.27715rem + 4.79202vw, 5.26875rem);
+  font-weight: 400;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+  margin: 0rem 0rem 4.62448rem;
+}
+
+.caixa-plataforma {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}

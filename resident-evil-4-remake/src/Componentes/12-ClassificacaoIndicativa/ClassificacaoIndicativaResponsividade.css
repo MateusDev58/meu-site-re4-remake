@@ -1,0 +1,54 @@
+@media screen and (max-width: 769px) {
+  .caixa-conteudo-classificacao-indicativa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-classificacao-indicativa {
+    padding: clamp(3.8375rem, 10.658vw, 8.18594rem) 0rem;
+    height: clamp(29.519rem, -6.37rem + 99.757vw, 70.222rem);
+  }
+
+  .caixa-conteudo-classificacao-indicativa {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 0rem clamp(1.91875rem, 5.329vw, 4.09219rem);
+    gap: 0rem;
+    position: relative;
+  }
+
+  .logo-resident-evil-4-remake-classificacao {
+    width: clamp(13.431rem, -16.805rem + 83.988vw, 47.698rem);
+    padding-bottom: 2.2528rem;
+  }
+
+  .lista-classificacao-ul,
+  .lista-2-classificacao-ul {
+    max-width: 100%;
+  }
+
+  .item-classificacao {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+    margin: 0rem;
+    padding: clamp(1.056rem, 2.933vw, 2.2528rem);
+  }
+
+  .jaqueta-bomber {
+    font-size: clamp(1.056rem, 2.933vw, 2.2528rem);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2.2528rem 4.09219rem;
+  }
+
+  .img-classificacao-18-anos {
+    position: absolute;
+    right: 4rem;
+    top: 0rem;
+  }
+}

@@ -1,0 +1,23 @@
+.caixa-links-relacionados {
+  position: relative;
+  z-index: 1;
+  max-width: 136rem;
+  margin-left: clamp(1.5375rem, -16.4173rem + 23.3482vw, 15.4828rem);
+  margin-right: clamp(1.5375rem, -16.4173rem + 23.3482vw, 15.4828rem);
+  padding: 2.80938rem 0rem 3.16094rem;
+}
+
+.caixa-conteudo-links-relacionados {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    clamp(20.028rem, 9.7631rem + 13.3484vw, 27.997rem)
+  );
+  justify-content: center;
+  padding: 0rem clamp(1.59844rem, -0.0102rem + 2.0919vw, 2.84583rem);
+  gap: clamp(0.8rem, -0.2312rem + 1.3411vw, 1.6rem);
+}
+
+.capa-links-relacionados {
+  width: clamp(20.028rem, 9.7631rem + 13.3484vw, 27.997rem);
+}

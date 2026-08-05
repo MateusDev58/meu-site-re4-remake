@@ -1,0 +1,125 @@
+.caixa-localizacao {
+  max-width: 136rem;
+  position: relative;
+  z-index: 1;
+  padding-top: clamp(
+    3.19844rem,
+    calc(1.06505868rem + 0.592606602vw),
+    5.61875rem
+  );
+
+  padding-bottom: clamp(
+    3.39844rem,
+    calc(1.131552909rem + 0.629691402vw),
+    5.97031rem
+  );
+}
+
+.caixa-titulo-localizacao {
+  display: flex;
+  gap: 2rem;
+  margin: 0
+    clamp(
+      3.07656rem,
+      calc(
+        3.07656rem + (18.3rem - 3.07656rem) *
+          ((100% - 76.9rem) / (162rem - 76.9rem))
+      ),
+      18.3rem
+    )
+    clamp(
+      1.60208rem,
+      calc(
+        1.60208rem + (2.84583rem - 1.60208rem) *
+          ((100% - 76.9rem) / (162rem - 76.9rem))
+      ),
+      2.84583rem
+    );
+}
+
+.vertical-localizacao {
+  border-left: 0.1rem solid #fff;
+  height: 5rem;
+}
+
+.vila-p {
+  font-size: clamp(0.720937rem, 0.9375vw, 1.28063rem);
+  color: #ffffff;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.quebra-linha {
+  display: inline;
+}
+
+.caixa-carrossel-localizacao {
+  transform: scale(0.95);
+  opacity: 0;
+  transition:
+    transform 0.8s ease,
+    opacity 0.8s ease;
+}
+
+.caixa-carrossel-localizacao.aos-animate {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.imagens-localizacao {
+  width: auto;
+  max-width: clamp(46.455rem, calc(58.9vw + 1.15rem), 81.613rem);
+  display: block;
+}
+
+.mySwiper,
+.mySwiper .swiper,
+.mySwiper .swiper-wrapper,
+.mySwiper .swiper-slide {
+  overflow: visible !important;
+}
+
+.controles-carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 4.269rem;
+  height: 0.4rem;
+  background-color: #5d0b13;
+  opacity: 1;
+  border-radius: 0;
+  transition: 0.3s;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: #bb1020;
+}
+
+.btn-prev-esquerda,
+.btn-next-direita {
+  font-size: 4rem;
+  color: #bb1020;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.swiper-slide {
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: 0.6;
+}

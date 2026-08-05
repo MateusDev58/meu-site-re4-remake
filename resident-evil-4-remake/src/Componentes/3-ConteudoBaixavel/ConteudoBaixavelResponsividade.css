@@ -1,0 +1,61 @@
+@media screen and (max-width: 769px) {
+  .caixa-demo {
+    margin: 0rem 3.07656rem 8.01042rem;
+  }
+
+  .linha-vermelha-longa {
+    width: 35.373rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-baixavel {
+    padding: clamp(3.8375rem, 1.07vw, 8.18594rem) 0;
+  }
+
+  .caixa-conteudo-baixavel {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .span-conteudo-baixavel {
+    font-size: clamp(1.44rem, 3.9vw, 3rem);
+  }
+
+  .linha-pattern {
+    height: clamp(13.752rem, 3.82vw, 29.338rem);
+  }
+
+  .caixa-conteudo-baixavel-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .imagem-modo {
+    width: 100%;
+    max-width: clamp(
+      29.195rem,
+      calc(29.195rem + 33.091rem * (100vw - 360px) / 408),
+      62.286rem
+    );
+  }
+
+  .logo-demo-img {
+    width: clamp(13.628rem, 37.85vw, 29.073rem);
+  }
+
+  .demo-disponivel {
+    font-size: clamp(1.728rem, 4.8vw, 3.6864rem);
+  }
+
+  .sem-limite-p {
+    font-size: clamp(0.96rem, 2.67vw, 2.048rem);
+  }
+
+  .demo {
+    font-size: clamp(1.44rem, 3.91vw, 3rem);
+  }
+}

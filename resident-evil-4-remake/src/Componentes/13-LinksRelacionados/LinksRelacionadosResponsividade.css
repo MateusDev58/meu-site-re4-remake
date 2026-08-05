@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+  .caixa-links-relacionados {
+    margin: 0rem;
+    padding: clamp(3.8375rem, -0.0006rem + 10.658vw, 8.18594rem)
+      clamp(1.91875rem, -0.0003rem + 5.3307vw, 4.09219rem);
+  }
+
+  .caixa-conteudo-links-relacionados {
+    grid-template-columns: repeat(
+      2,
+      clamp(14.919rem, -0.1919rem + 42vw, 32.055rem)
+    );
+    padding: 0rem;
+    gap: clamp(2rem, 0.2353rem + 4.902vw, 4rem);
+  }
+
+  .capa-links-relacionados {
+    width: clamp(14.919rem, -0.1919rem + 42vw, 32.055rem);
+  }
+}

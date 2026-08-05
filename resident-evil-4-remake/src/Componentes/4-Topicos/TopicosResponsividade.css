@@ -1,0 +1,99 @@
+@media screen and (max-width: 769px) {
+  .botao-anterior::after,
+  .botao-proximo::after {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caixa-conteudo-topicos {
+    padding-bottom: 9rem;
+  }
+
+  .topicos-navegacao {
+    margin: 0 0 clamp(0.72rem, 2vw, 1.536rem) 0;
+  }
+
+  .topico-span {
+    font-size: clamp(2.88rem, 7.65vw, 6rem);
+  }
+
+  .caixa-noticias {
+    width: clamp(21.403rem, 59.46vw, 45.663rem);
+    height: clamp(25.002rem, 68.99vw, 52.983rem);
+  }
+
+  .caixa-texto-topicos {
+    padding: clamp(0.96rem, 2.6vw, 2rem);
+  }
+
+  .texto-topicos-p {
+    max-width: clamp(19.484rem, 54.25vw, 41.663rem);
+    font-size: clamp(1.056rem, 2.93vw, 2.2528rem);
+  }
+
+  .data {
+    font-size: clamp(1.62rem, 5.21vw, 4rem);
+  }
+
+  .data-small {
+    font-size: clamp(0.96rem, 2.6vw, 2rem);
+  }
+
+  .grupo-botoes {
+    position: absolute;
+    /* bottom: -10rem; */
+    bottom: -1rem;
+    left: 42%;
+    transform: translateX(-50%);
+    margin: clamp(1.92rem, 5.333vw, 4.096rem)
+      clamp(1.92188rem, 5.336vw, 4.09844rem) 0rem
+      clamp(1.92031rem, 5.334vw, 4.09688rem);
+  }
+
+  .seta {
+    color: white;
+    width: clamp(3.839rem, 6vw, 8.191rem);
+    height: clamp(1.439rem, 2.5vw, 3.072rem);
+  }
+
+  .botao-anterior,
+  .botao-proximo,
+  .botao-anterior-trailer,
+  .botao-proximo-trailer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .botao-anterior,
+  .botao-anterior-trailer {
+    width: clamp(2.303rem, 6.398vw, 4.914rem);
+    height: clamp(2.303rem, 6.398vw, 4.914rem);
+    left: clamp(-5rem, calc(-9.804vw + 2.529rem), -1rem);
+    margin: 0rem;
+  }
+
+  .barra-carrossel {
+    width: clamp(25.916rem, 71.99vw, 55.288rem);
+    height: clamp(0.383rem, 1.07vw, 0.819rem);
+    margin: 0rem;
+  }
+
+  .botao-proximo,
+  .botao-proximo-trailer {
+    right: clamp(-5rem, calc(-9.804vw + 2.529rem), -1rem);
+    width: clamp(2.303rem, 6.398vw, 4.914rem);
+    height: clamp(2.303rem, 6.398vw, 4.914rem);
+    margin: 0rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .caixa-conteudo-topicos {
+    /* padding: clamp(3.8375rem, 9vw, 8.18594rem) 0; */
+    padding-bottom: 6rem;
+  }
+}

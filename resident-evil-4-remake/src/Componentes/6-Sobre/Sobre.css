@@ -1,0 +1,153 @@
+.caixa-sobre {
+  position: relative;
+  max-width: 136rem;
+  margin: 0 auto;
+}
+
+.caixa-conteudo-sobre {
+  position: relative;
+  padding: 3.61875rem 4rem 0;
+}
+
+.sobre-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  position: relative;
+  overflow: hidden;
+}
+
+.sobre-bg-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.sobre-bg {
+  width: 100%;
+  max-width: 126.656rem;
+  /* object-fit: cover; */
+  display: block;
+}
+
+.sobre-img-2 {
+  max-width: 126.656rem;
+  width: 100%;
+  display: block;
+  background-color: black;
+}
+
+.sobre-bg-mobile {
+  display: none;
+}
+
+.sobre-content {
+  position: relative;
+  z-index: 2;
+  /* min-height: 60vh; */
+}
+
+.caixa-texto-sobre {
+  position: relative;
+  left: clamp(3.1rem, calc(9.6vw - 4.3rem), 14.1rem);
+  display: flex;
+  flex-direction: column;
+  max-width: 70rem;
+  padding-top: 9rem;
+}
+
+.sobre-span,
+.personagem-span,
+.localizacao-span,
+.jogabilidade-span,
+.conteudo-baixavel-span-dlc {
+  font-size: clamp(2.40312rem, 3.125vw, 4.14375rem);
+  margin-bottom: 2.84583rem;
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  background-image: url("./background-comprar.png");
+  background-color: #bb1020;
+  background-position: left top;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
+  white-space: nowrap;
+}
+
+.sobreviver-span {
+  font-family: "EB Garamond", serif;
+  font-size: clamp(4.005rem, calc(4.6vw + 0.9rem), 7.1rem);
+  margin-bottom: clamp(2.33rem, calc(0.9vw + 1.6rem), 3.37rem);
+  background-image: url("/background-comprar.png");
+  font-weight: 500;
+  background-color: #fff;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.caixa-texto {
+  width: 64.734rem;
+  margin-bottom: clamp(8rem, calc(5.4vw + 3.8rem), 14.2rem);
+}
+
+.texto-sobre-p {
+  font-family: "EB Garamond", serif;
+  color: #ffffff;
+  font-size: clamp(0.8rem, calc(1vw + 0.3rem), 1.42rem);
+  line-height: 1.8;
+  font-weight: 600;
+  margin-bottom: 1.42292rem;
+}
+
+.historia-stage {
+  position: relative;
+}
+
+.sobre-img-2,
+.sobre-img-2-mobile {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.sobre-img-2-mobile {
+  display: none;
+}
+
+.caixa-sobre-extra {
+  position: relative;
+  z-index: 2;
+}
+
+.caixa-img-sobre {
+  width: 100%;
+  max-width: 126.656rem;
+  display: flex;
+  justify-content: space-between;
+  gap: clamp(1.5rem, 1.2vw + 0.6rem, 2.9rem);
+  background-color: black;
+}
+
+.img-pequena-sobre {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+}
+
+.caixa-historia {
+  padding-left: clamp(3.1rem, calc(9.6vw - 4.3rem), 14.1rem);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 5rem;
+}

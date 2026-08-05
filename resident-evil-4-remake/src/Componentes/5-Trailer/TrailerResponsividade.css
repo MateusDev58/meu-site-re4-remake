@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  .caixa-trailer {
+    padding: clamp(3.8375rem, 9vw, 8.18594rem) 0;
+  }
+
+  .caixa-trailer-card {
+    width: clamp(25.916rem, 72vw, 55.288rem);
+  }
+
+  .play-icon,
+  .play-icon-hover {
+    width: clamp(4.319rem, 12vw, 9.202rem);
+  }
+
+  .trailer-legenda {
+    font-size: clamp(1.248rem, 3.475vw, 2.6624rem);
+    padding: clamp(0.7826rem, 1.6vw, 1.3312rem)
+      clamp(1.5652rem, 3.2vw, 2.6624rem);
+  }
+}

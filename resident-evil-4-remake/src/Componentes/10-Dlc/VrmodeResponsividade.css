@@ -1,0 +1,142 @@
+@media screen and (max-width: 768px) {
+  .caixa-vr {
+    background-image: url("vrmode_bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    width: 100%;
+    padding-top: clamp(20rem, -3.824rem + 66.176vw, 47rem);
+  }
+
+  .caixa-conteudo-vr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caixa-titulo-vr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .caixa-logo-vr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+    width: 100%;
+    max-width: clamp(30.241rem, 0.0006rem + 83.999vw, 64.513rem);
+    margin-bottom: clamp(2.88rem, 8vw - 0.001rem, 6.144rem);
+  }
+
+  .logo-vrmode-img {
+    width: 100%;
+    max-width: clamp(30.241rem, 0.0006rem + 83.999vw, 64.513rem);
+  }
+
+  .logo-playstation-vr-img {
+    max-width: clamp(11.903rem, 33.066vw - 0.001rem, 25.394rem);
+  }
+
+  .caixa-info-dlc {
+    order: 2;
+  }
+
+  .caixa-botao-vr {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+  }
+
+  .PlayStation-vr2-p {
+    font-size: clamp(1.152rem, 3.2vw - 0.001rem, 2.4576rem);
+    margin-bottom: clamp(2.69167rem, -1.168rem + 5.02vw, 5.69167rem);
+    max-width: clamp(30.241rem, 0.001rem + 83.999vw, 64.513rem);
+  }
+
+  .baixe-aqui,
+  .download-da-demo {
+    width: clamp(29.841rem, 83.99vw - 3.941rem, 64.113rem);
+    height: clamp(3.503rem, 9.73vw - 0.001rem, 7.473rem);
+    font-size: clamp(1.056rem, 2.933vw + 0.001rem, 2.2528rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caixa-demo-gratuita {
+    padding: 0rem clamp(1.92rem, 0.001rem + 5.333vw, 4.096rem);
+  }
+
+  .caixa-demo-vr {
+    width: clamp(31.963rem, 89.328vw - 0.195rem, 68.409rem);
+    height: clamp(30.009rem, 82.27vw + 0.392rem, 63.575rem);
+    padding: clamp(2rem, 4.902vw + 0.235rem, 4rem) 0rem;
+  }
+
+  .titulo-demo-h3 {
+    font-size: clamp(1.92rem, 5.333vw + 0.001rem, 4.096rem);
+    max-width: clamp(28.125rem, 78.662vw - 2.151rem, 60.219rem);
+    width: 100%;
+    margin-bottom: 2.048rem;
+    text-align: center;
+  }
+
+  .demo-gratuita-p {
+    font-size: clamp(1.056rem, 2.933vw + 0.001rem, 2.2528rem);
+    max-width: clamp(28.125rem, 78.662vw - 2.151rem, 60.219rem);
+    margin-bottom: clamp(2.88rem, 8vw - 0.001rem, 6.144rem);
+    text-align: left;
+  }
+
+  .resident-evil-4-h3 {
+    font-size: clamp(1.248rem, 3.467vw - 0.001rem, 2.6624rem);
+    width: clamp(32.163rem, 89.328vw - 0.001rem, 68.609rem);
+    white-space: nowrap;
+    line-height: 1.9;
+  }
+
+  .resident-evil-4-h3-small {
+    font-size: clamp(0.936rem, 2.6vw + 0.001rem, 1.9968rem);
+  }
+
+  .resident-evil-4-h3::before {
+    left: -1.5rem;
+    top: 23%;
+  }
+
+  .resident-evil-4-h3-br {
+    display: block;
+  }
+
+  .lista-sistema-ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: clamp(0.96rem, 2.667vw - 0.001rem, 2.048rem);
+  }
+
+  .lista-sistema-li {
+    font-size: clamp(1.056rem, 2.933vw + 0.001rem, 2.2528rem);
+    margin-bottom: clamp(0.528rem, 1.467vw - 0.001rem, 1.1264rem);
+  }
+
+  .lista-acesso-li {
+    margin-bottom: clamp(0.29568rem, 0.821vw + 0.001rem, 0.630784rem);
+    font-size: clamp(0.7392rem, 2.053vw + 0.001rem, 1.57696rem);
+  }
+
+  .caixa-vr::after {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .caixa-logo-vr {
+    margin-bottom: 0rem;
+  }
+
+  .demo-gratuita-p {
+    margin-bottom: 0rem;
+  }
+}

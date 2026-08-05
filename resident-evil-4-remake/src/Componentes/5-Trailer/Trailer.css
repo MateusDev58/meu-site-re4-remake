@@ -1,0 +1,64 @@
+.caixa-trailer {
+  max-width: 136rem;
+  margin: 0 auto;
+  padding: clamp(5.61875rem, calc(8.4rem - 1.3vw), 8.18594rem) 0;
+  position: relative;
+}
+
+.caixa-trailer-card {
+  width: clamp(33.605rem, 16.037rem + 22.847vw, 46.788rem);
+  position: relative;
+  border-bottom: solid 0.1rem #bb1020;
+}
+
+.link-card {
+  display: block;
+  position: relative;
+}
+
+.img-trailer {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.play-icon,
+.play-icon-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  width: clamp(5.6rem, 2.671rem + 3.808vw, 7.797rem);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.play-icon-hover {
+  opacity: 0;
+}
+
+.link-card:hover .play-icon {
+  opacity: 0;
+}
+
+.link-card:hover .play-icon-hover {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.trailer-legenda {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  padding: clamp(0.440573rem, -0.016rem + 0.593vw, 0.782604rem)
+    clamp(0.881146rem, -0.031rem + 1.186vw, 1.56521rem);
+  letter-spacing: 0.1rem;
+  font-size: clamp(0.881146rem, -0.031rem + 1.186vw, 1.56521rem);
+}
