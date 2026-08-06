@@ -6,7 +6,8 @@
   }
 
   .caixa-the-mercenaries {
-    background-image: url("mercenaries_bg-mobile.jpg");
+    background-image: url("/meu-site-re4-remake/mercenaries_bg-mobile.jpg");
+
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;

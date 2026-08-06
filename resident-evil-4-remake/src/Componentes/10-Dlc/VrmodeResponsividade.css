@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   .caixa-vr {
-    background-image: url("vrmode_bg-mobile.jpg");
+    background-image: url("/meu-site-re4-remake/vrmode_bg-mobile.jpg");
+
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 100%;

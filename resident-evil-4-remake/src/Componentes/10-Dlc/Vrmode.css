@@ -1,5 +1,6 @@
 .caixa-vr {
-  background-image: url("vrmode_bg.png");
+  background-image: url("/meu-site-re4-remake/vrmode_bg.png");
+
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -79,7 +80,8 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(background-comprar.png);
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -112,7 +114,8 @@
 
 .titulo-demo-h3-span {
   font-family: "EB Garamond", serif;
-  background-image: url(background-comprar.png);
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
+
   background-color: #bb1020;
   background-position: left top;
   background-size: cover;

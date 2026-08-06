@@ -52,7 +52,8 @@
 
   .caixa-separate-ways {
     position: relative;
-    background-image: url("separateways_bg-768.jpg");
+    background-image: url("/meu-site-re4-remake/separateways_bg-768.jpg");
+
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
@@ -118,7 +119,8 @@
     content: "CAMINHOS DISTINTOS";
     font-family: "Teko", sans-serif;
     text-transform: uppercase;
-    background-image: url(./background-comprar.png);
+    background-image: url("/meu-site-re4-remake/background-comprar.png");
+
     background-color: #bb1020;
     background-position: left top;
     background-size: cover;
