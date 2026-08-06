@@ -306,6 +306,7 @@
     width: 100%;
     height: clamp(10.73rem, 0.122rem + 29.475vw, 22.784rem);
     padding: clamp(1.92rem, -0.198rem + 5.882vw, 4.096rem);
+    border-top: none;
   }
 
   .observacao-li {

@@ -272,6 +272,7 @@
 .caixa-versao-didital {
   border: solid 0.1rem #4a4a4a;
   border-top: none;
+  border-bottom: none;
   display: flex;
   background-color: #000000;
   width: clamp(65.758rem, 38.217rem + 35.814vw, 87.119rem);
@@ -557,6 +558,7 @@
   border: solid 0.1rem #4a4a4a;
   border-left: none;
   border-right: none;
+  border-bottom: none;
   padding: clamp(1.60208rem, 2.0833vw, 2.84583rem)
     clamp(2.0026rem, 2.6042vw, 3.55729rem);
   height: clamp(14.206rem, 18.2606vw, 24.944rem);
@@ -647,7 +649,7 @@
   object-fit: contain;
 }
 
-/* modal goldedition  */
+/* modal-gold-edition  */
 
 .modal-gold-edition {
   position: fixed;

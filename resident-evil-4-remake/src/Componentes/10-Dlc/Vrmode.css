@@ -1,5 +1,5 @@
 .caixa-vr {
-  background-image: url("vrmode_bg.png");
+  background-image: url("/vrmode_bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -110,22 +110,9 @@
   /* text-align: center; */
 }
 
-/* .titulo-demo-h3-span {
-  font-family: "EB Garamond", serif;
-  background-image: url(./background-comprar.png);
-  background-color: #bb1020;
-  background-position: left top;
-  background-size: cover;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: rgba(0, 0, 0, 0);
-  display: inline-block;
-  filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.8));
-} */
-
 .titulo-demo-h3-span {
   font-family: "EB Garamond", serif;
-  background-image: url(./background-comprar.png);
+  background-image: url(/background-comprar.png);
   background-color: #bb1020;
   background-position: left top;
   background-size: cover;
@@ -172,12 +159,7 @@
   display: flex;
   margin-top: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
   margin-bottom: clamp(3.20417rem, 4.167vw - 0.002rem, 5.69167rem);
-  /* cursor: grab; */
 }
-
-/* .caixa-conteudo-vr:active {
-  cursor: grabbing;
-} */
 
 .swiper-dlc,
 .swiper-imagens-mercenaries,

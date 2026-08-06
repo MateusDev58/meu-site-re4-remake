@@ -23,6 +23,20 @@ export const Personagem = () => {
     setAbrirCaixaExpandirPersonagem(false);
   }
 
+  useEffect(() => {
+    listaCarrossel.forEach((item) => {
+      item.imagens.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+
+      item.imagensMobile?.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+    });
+  }, []);
+
   const listaCarrossel = [
     {
       nome: "Item 1",
@@ -170,17 +184,24 @@ export const Personagem = () => {
     },
   ];
 
+  // Pré-carrega todas as imagens do carrossel assim que o componente é montado.
+  // Isso faz com que o navegador baixe as imagens em segundo plano,
+  // evitando atrasos quando o usuário troca de personagem pela primeira vez.
   useEffect(() => {
-    const total = listaCarrossel[ativo].imagens.length;
+    listaCarrossel.forEach((item) => {
+      // Pré-carrega as imagens da versão desktop
+      item.imagens.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
 
-    if (total <= 1) return;
-
-    const intervalo = setInterval(() => {
-      setIndexImg((prev) => (prev + 1) % total);
-    }, 5000);
-
-    return () => clearInterval(intervalo);
-  }, [ativo, listaCarrossel]);
+      // Pré-carrega as imagens da versão mobile (caso existam)
+      item.imagensMobile?.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+    });
+  }, []);
 
   return (
     <>
