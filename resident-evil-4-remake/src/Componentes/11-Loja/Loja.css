@@ -68,7 +68,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url("/background-comprar.png");
+  background-image: url("./background-comprar.png");
   background-color: #bb1020;
   z-index: 2;
 }
@@ -87,7 +87,7 @@
   align-items: center;
   justify-content: center;
   background-color: #bb1020;
-  background-image: url("/background-comprar.png");
+  background-image: url("./background-comprar.png");
   background-position: center;
   background-repeat: repeat;
   background-size: 1000px;
@@ -337,7 +337,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(/background-comprar.png);
+  background-image: url(./background-comprar.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -451,7 +451,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(/background-comprar.png);
+  background-image: url(./background-comprar.png);
   background-color: #bb1020;
   z-index: 2;
 }
@@ -721,7 +721,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(/background-comprar.png);
+  background-image: url(./background-comprar.png);
   background-color: #bb1020;
   z-index: 2;
 }

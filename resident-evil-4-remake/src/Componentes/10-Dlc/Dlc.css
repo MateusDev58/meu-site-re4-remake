@@ -30,7 +30,7 @@
 }
 
 .caixa-separate-ways {
-  background-image: url("/meu-site-re4-remake/separateways_bg.png");
+  background-image: url("./separateways_bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;

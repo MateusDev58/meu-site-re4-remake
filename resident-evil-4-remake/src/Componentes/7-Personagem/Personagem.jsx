@@ -24,12 +24,30 @@ export const Personagem = () => {
   }
 
   useEffect(() => {
+    const item = listaCarrossel[ativo];
+
+    if (!item || item.imagens.length <= 1) return;
+
+    const interval = setInterval(() => {
+      setIndexImg((prev) => (prev + 1) % item.imagens.length);
+    }, 7000);
+
+    return () => clearInterval(interval);
+  }, [ativo]);
+
+  // Pré-carrega todas as imagens do carrossel assim que o componente é montado.
+  // Isso faz com que o navegador baixe as imagens em segundo plano,
+  // evitando atrasos quando o usuário troca de personagem pela primeira vez.
+
+  useEffect(() => {
     listaCarrossel.forEach((item) => {
+      // Pré-carrega as imagens da versão desktop
       item.imagens.forEach((src) => {
         const img = new Image();
         img.src = src;
       });
 
+      // Pré-carrega as imagens da versão mobile (caso existam)
       item.imagensMobile?.forEach((src) => {
         const img = new Image();
         img.src = src;
@@ -183,25 +201,6 @@ export const Personagem = () => {
       modal: "./modal-ezalot.jpg",
     },
   ];
-
-  // Pré-carrega todas as imagens do carrossel assim que o componente é montado.
-  // Isso faz com que o navegador baixe as imagens em segundo plano,
-  // evitando atrasos quando o usuário troca de personagem pela primeira vez.
-  useEffect(() => {
-    listaCarrossel.forEach((item) => {
-      // Pré-carrega as imagens da versão desktop
-      item.imagens.forEach((src) => {
-        const img = new Image();
-        img.src = src;
-      });
-
-      // Pré-carrega as imagens da versão mobile (caso existam)
-      item.imagensMobile?.forEach((src) => {
-        const img = new Image();
-        img.src = src;
-      });
-    });
-  }, []);
 
   return (
     <>
