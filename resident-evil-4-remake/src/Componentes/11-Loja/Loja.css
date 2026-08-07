@@ -24,7 +24,7 @@
   font-size: clamp(4.0052rem, 5.2083vw, 7.1146rem);
   font-family: "Teko", sans-serif;
   text-transform: uppercase;
-  background-image: url(./background-comprar.png);
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
   background-color: #bb1020;
   background-position: left top;
   background-size: cover;
@@ -68,7 +68,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url("./background-comprar.png");
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
   background-color: #bb1020;
   z-index: 2;
 }
@@ -87,7 +87,7 @@
   align-items: center;
   justify-content: center;
   background-color: #bb1020;
-  background-image: url("./background-comprar.png");
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
   background-position: center;
   background-repeat: repeat;
   background-size: 1000px;
@@ -151,7 +151,7 @@
   justify-content: center;
   font-family: "Teko", sans-serif;
   text-transform: capitalize;
-  background-image: url("./background-comprar.png");
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
   background-color: #bb1020;
   background-position: left top;
   background-size: cover;
@@ -212,7 +212,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./background-comprar.png");
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
   background-color: #bb1020;
   background-position: left top;
   background-size: cover;
@@ -337,7 +337,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(./background-comprar.png);
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;

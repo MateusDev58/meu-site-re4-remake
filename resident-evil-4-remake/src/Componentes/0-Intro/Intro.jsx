@@ -6,11 +6,25 @@ function Intro({ fecharIntro }) {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.play().catch((err) => {
-        console.log("Autoplay bloqueado:", err);
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Força o play assim que o vídeo tiver dados suficientes
+    const iniciarVideo = () => {
+      video.play().catch((err) => {
+        console.log("Autoplay bloqueado pelo navegador:", err);
       });
+    };
+
+    if (video.readyState >= 3) {
+      iniciarVideo();
+    } else {
+      video.addEventListener("canplay", iniciarVideo);
     }
+
+    return () => {
+      video.removeEventListener("canplay", iniciarVideo);
+    };
   }, []);
 
   return (
@@ -23,6 +37,8 @@ function Intro({ fecharIntro }) {
           autoPlay
           muted
           playsInline
+          controls={false} // Garante que o Safari não renderize botões nativos
+          webkit-playsinline="true" // Suporte extra para versões antigas do iOS
           preload="auto"
           onEnded={fecharIntro}
         />

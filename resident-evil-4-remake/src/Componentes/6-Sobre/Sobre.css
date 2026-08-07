@@ -80,7 +80,7 @@
   font-family: "EB Garamond", serif;
   font-size: clamp(4.005rem, calc(4.6vw + 0.9rem), 7.1rem);
   margin-bottom: clamp(2.33rem, calc(0.9vw + 1.6rem), 3.37rem);
-  background-image: url("/background-comprar.png");
+  background-image: url("./background-comprar.png");
   font-weight: 500;
   background-color: #fff;
   background-position: left top;

@@ -12,6 +12,7 @@
 
 .topico-span {
   font-size: clamp(2.40312rem, 3.125vw, 4.14375rem);
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
   font-family: "Teko", sans-serif;
   text-transform: uppercase;
   background-color: #bb1020;

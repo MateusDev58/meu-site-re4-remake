@@ -109,12 +109,12 @@
   .caixa-info-hero {
     position: absolute;
     top: auto;
-    bottom: 34rem;
+    bottom: 26rem;
   }
 }
 
 @media screen and (max-width: 375px) {
   .caixa-info-hero {
-    bottom: 22rem;
+    bottom: 17rem;
   }
 }
