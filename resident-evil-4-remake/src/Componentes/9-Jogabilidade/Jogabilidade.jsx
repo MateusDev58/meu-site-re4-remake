@@ -6,6 +6,73 @@ import { EffectFade } from "swiper/modules";
 import "swiper/css/effect-fade";
 import "swiper/css";
 
+const listaGameplay = [
+  {
+    titulo: "AÇÃO",
+    descricao: "Perspectiva em Terceira Pessoa",
+    texto:
+      "A perspectiva da câmera é em terceira pessoa, como você se lembra do Resident Evil 4 original. Com gráficos atualizados, a sensação de isolamento e estranheza do jogo original se intensifica ainda mais. Os controles foram refinados para padrões modernos que aprimoram a jogabilidade, enfatizando a luta do Leon pela sobrevivência.",
+    video: "./video-acao-01.mp4",
+    poster: "./poster-acao-1.jpg",
+  },
+
+  {
+    titulo: "AÇÃO",
+    descricao: "Combate a Distância",
+    texto:
+      " Mire e atire através da Perspectiva em Terceira Pessoa. Mire bem e escolha seus alvos com cuidado para economizar munição. \n Enfraqueça seus inimigos atirando na cabeça e nas pernas, dando abertura para ataques corpo a corpo, e execute-os sem consumir munição.",
+    video: "./video-acao-02.mp4",
+    poster: "./poster-acao-2.jpg",
+  },
+
+  {
+    titulo: "AÇÃO",
+    descricao: "Ações com a Faca",
+    texto:
+      "Além de atacar, agora você pode aparar ataques e finalizar inimigos caídos utilizando a sua faca. \n Porém, qualquer ação com a faca reduzirá sua durabilidade. Só use quando for realmente necessário; é melhor guardá-la para circunstâncias extremas, ou você pode acabar ficando sem ter como se defender.",
+    video: "./video-acao-03.mp4",
+    poster: "./poster-acao-3.jpg",
+  },
+];
+
+const listaRecursos = [
+  {
+    titulo: "GESTÃO DE RECURSOS",
+    descricao: "Maleta",
+    texto:
+      "Carregue armas, munições, ervas curativas e outros itens úteis na maleta. \n  O gerenciamento eficaz dos itens no espaço limitado fornecido é essencial para a sua sobrevivência.",
+    video: "./video-recursos-01.mp4",
+    poster: "./poster-recursos-01.jpg",
+  },
+
+  {
+    titulo: "GESTÃO DE RECURSOS",
+    descricao: "Criação de Itens",
+    texto:
+      "Além de combinar ervas curativas, agora você pode criar munição e outros itens úteis. \n Se a sua maleta estiver ficando cheia, criar itens é uma boa maneira de liberar espaço.",
+    video: "./video-recursos-02.mp4",
+    poster: "./poster-recursos-02.jpg",
+  },
+
+  {
+    titulo: "GESTÃO DE RECURSOS",
+    descricao: "O Mercador",
+    texto:
+      "Compre armas e itens, melhore suas armas ou negocie mercadorias especiais na loja do Mercador. \n O Mercador consegue até consertar facas quebradas. \n *(Aplica-se apenas à faca padrão do Leon.)",
+    video: "./video-recursos-03.mp4",
+    poster: "./poster-recursos-03.jpg",
+  },
+
+  {
+    titulo: "GESTÃO DE RECURSOS",
+    descricao: "Negociação",
+    texto:
+      "Itens que não podem ser comprados com dinheiro normal podem ser trocados por gemas.",
+    video: "./video-recursos-04.mp4",
+    poster: "./poster-recursos-04.jpg",
+  },
+];
+
 export const Jogabilidade = () => {
   const [tocando, setTocando] = useState({});
   const swiperRef = useRef(null);
@@ -46,73 +113,6 @@ export const Jogabilidade = () => {
     }
   };
 
-  const listaGameplay = [
-    {
-      titulo: "AÇÃO",
-      descricao: "Perspectiva em Terceira Pessoa",
-      texto:
-        "A perspectiva da câmera é em terceira pessoa, como você se lembra do Resident Evil 4 original. Com gráficos atualizados, a sensação de isolamento e estranheza do jogo original se intensifica ainda mais. Os controles foram refinados para padrões modernos que aprimoram a jogabilidade, enfatizando a luta do Leon pela sobrevivência.",
-      video: "./video-acao-01.mp4",
-      poster: "./poster-acao-1.jpg",
-    },
-
-    {
-      titulo: "AÇÃO",
-      descricao: "Combate a Distância",
-      texto:
-        " Mire e atire através da Perspectiva em Terceira Pessoa. Mire bem e escolha seus alvos com cuidado para economizar munição. \n Enfraqueça seus inimigos atirando na cabeça e nas pernas, dando abertura para ataques corpo a corpo, e execute-os sem consumir munição.",
-      video: "./video-acao-02.mp4",
-      poster: "./poster-acao-2.jpg",
-    },
-
-    {
-      titulo: "AÇÃO",
-      descricao: "Ações com a Faca",
-      texto:
-        "Além de atacar, agora você pode aparar ataques e finalizar inimigos caídos utilizando a sua faca. \n Porém, qualquer ação com a faca reduzirá sua durabilidade. Só use quando for realmente necessário; é melhor guardá-la para circunstâncias extremas, ou você pode acabar ficando sem ter como se defender.",
-      video: "./video-acao-03.mp4",
-      poster: "./poster-acao-3.jpg",
-    },
-  ];
-
-  const listaRecursos = [
-    {
-      titulo: "GESTÃO DE RECURSOS",
-      descricao: "Maleta",
-      texto:
-        "Carregue armas, munições, ervas curativas e outros itens úteis na maleta. \n  O gerenciamento eficaz dos itens no espaço limitado fornecido é essencial para a sua sobrevivência.",
-      video: "./video-recursos-01.mp4",
-      poster: "./poster-recursos-01.jpg",
-    },
-
-    {
-      titulo: "GESTÃO DE RECURSOS",
-      descricao: "Criação de Itens",
-      texto:
-        "Além de combinar ervas curativas, agora você pode criar munição e outros itens úteis. \n Se a sua maleta estiver ficando cheia, criar itens é uma boa maneira de liberar espaço.",
-      video: "./video-recursos-02.mp4",
-      poster: "./poster-recursos-02.jpg",
-    },
-
-    {
-      titulo: "GESTÃO DE RECURSOS",
-      descricao: "O Mercador",
-      texto:
-        "Compre armas e itens, melhore suas armas ou negocie mercadorias especiais na loja do Mercador. \n O Mercador consegue até consertar facas quebradas. \n *(Aplica-se apenas à faca padrão do Leon.)",
-      video: "./video-recursos-03.mp4",
-      poster: "./poster-recursos-03.jpg",
-    },
-
-    {
-      titulo: "GESTÃO DE RECURSOS",
-      descricao: "Negociação",
-      texto:
-        "Itens que não podem ser comprados com dinheiro normal podem ser trocados por gemas.",
-      video: "./video-recursos-04.mp4",
-      poster: "./poster-recursos-04.jpg",
-    },
-  ];
-
   return (
     <div className="caixa-jogabilidade">
       <div className="caixa-conteudo-jogabilidade">
@@ -141,7 +141,12 @@ export const Jogabilidade = () => {
             slidesPerView={1}
             watchSlidesProgress={true}
             onSwiper={(swiper) => (swiperRef.current = swiper)}
-            onSlideChange={(swiper) => setGameplayAtivo(swiper.activeIndex)}
+            onSlideChange={(swiper) => {
+              setGameplayAtivo(swiper.activeIndex);
+              setTimeout(() => {
+                swiper.update();
+              }, 50);
+            }}
           >
             {listaGameplay.map((item, i) => (
               <SwiperSlide key={i}>
