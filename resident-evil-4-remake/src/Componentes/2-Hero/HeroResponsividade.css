@@ -118,3 +118,15 @@
     bottom: 17rem;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .caixa-info-hero {
+    bottom: 22rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .caixa-info-hero {
+    bottom: 27rem;
+  }
+}

@@ -141,3 +141,9 @@
     margin-bottom: 0rem;
   }
 }
+
+@media screen and (max-width: 440px) {
+  .caixa-texto-vr {
+    gap: 0rem;
+  }
+}

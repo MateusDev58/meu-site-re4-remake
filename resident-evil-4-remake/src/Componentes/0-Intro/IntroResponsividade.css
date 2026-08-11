@@ -39,3 +39,9 @@
     transform: translate(-50%, -120%);
   }
 }
+
+@media screen and (max-width: 440px) {
+  .video-intro {
+    transform: translate(-50%, -130%);
+  }
+}
