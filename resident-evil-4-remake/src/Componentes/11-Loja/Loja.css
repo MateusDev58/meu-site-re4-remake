@@ -285,6 +285,7 @@
 
 .caixa-didital-loja {
   width: clamp(32.778rem, 19.018rem + 17.891vw, 43.459rem);
+  border-bottom: solid 0.1rem #4a4a4a;
 }
 
 .caixa-conteudo-didital {
