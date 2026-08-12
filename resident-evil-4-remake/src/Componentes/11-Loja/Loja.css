@@ -281,6 +281,7 @@
 .capa-edicao {
   width: clamp(32.678rem, 18.918rem + 17.894vw, 43.359rem);
   border-right: solid 0.1rem #4a4a4a;
+  border-bottom: solid 0.1rem #4a4a4a;
 }
 
 .caixa-didital-loja {

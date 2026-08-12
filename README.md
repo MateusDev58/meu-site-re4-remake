@@ -1,1 +1,0 @@
-Projeto Front End em React inspirado no site oficial de Resident Evil 4 Remake. Desenvolvido para praticar componentização, responsividade, animações com AOS e carrosséis com Swiper. Acesse: https://mateusdev58.github.io/meu-site-re4-remake/
