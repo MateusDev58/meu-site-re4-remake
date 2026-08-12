@@ -26,4 +26,4 @@ Resident Evil 4 sempre foi um dos meus jogos favoritos, então decidi usar o rem
 
 🔗 https://mateusdev58.github.io/meu-site-re4-remake/
 
-> **Aviso:** Este é um projeto de estudo sem fins comerciais. Resident Evil 4 e seus materiais pertencem à Capcom.
+Aviso: Este é um projeto de estudo, sem fins comerciais e sem ligação com a Capcom. Resident Evil 4 e todos os materiais relacionados pertencem à Capcom.
