@@ -27,11 +27,7 @@ export const Topicos = () => {
   }, []);
 
   return (
-    <section
-      className="caixa-topicos"
-      data-aos="fade-left"
-      data-aos-delay="300"
-    >
+    <section className="caixa-topicos" data-aos="fade-left">
       <div className="caixa-conteudo-topicos">
         <div className="topicos-navegacao">
           <span className="topico-span">TÓPICOS</span>

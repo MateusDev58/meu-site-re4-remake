@@ -69,7 +69,40 @@
 
 .imagem-modo {
   width: clamp(22.755rem, 29.6vw, 36.272rem);
-  border-bottom: solid 0.1rem #bb1020;
+  display: block;
+}
+
+.caixa-conteudo-baixavel-ul li a {
+  position: relative;
+  display: block;
+}
+
+.caixa-conteudo-baixavel-ul li a::before {
+  content: "";
+  position: absolute;
+  width: clamp(22.755rem, 29.6vw, 36.272rem);
+  height: 0.1rem;
+  bottom: 0;
+  background-image: url("/meu-site-re4-remake/background-comprar.png");
+  background-color: #bb1020;
+  z-index: 1;
+  right: auto;
+  clip-path: inset(0 100% 0 0);
+}
+
+.caixa-conteudo-baixavel.aos-animate .caixa-conteudo-baixavel-ul li a::before {
+  animation: crescer-borda 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes crescer-borda {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0);
+  }
 }
 
 .caixa-demo {

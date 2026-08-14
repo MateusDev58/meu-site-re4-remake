@@ -4,11 +4,7 @@ import "./ConteudoBaixavelResponsividade.css";
 export const ConteudoBaixavel = () => {
   return (
     <section className="caixa-baixavel">
-      <div
-        className="caixa-conteudo-baixavel"
-        data-aos="fade-left"
-        data-aos-delay="300"
-      >
+      <div className="caixa-conteudo-baixavel" data-aos="fade-left">
         <div className="caixa-vertical">
           <span className="span-conteudo-baixavel">CONTEÚDO BAIXÁVEL</span>
           <span className="linha-pattern"></span>

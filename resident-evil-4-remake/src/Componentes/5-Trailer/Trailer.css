@@ -8,7 +8,33 @@
 .caixa-trailer-card {
   width: clamp(33.605rem, 16.037rem + 22.847vw, 46.788rem);
   position: relative;
-  border-bottom: solid 0.1rem #bb1020;
+}
+
+.caixa-trailer-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #bb1020;
+  clip-path: inset(0 100% 0 0);
+}
+
+.caixa-trailer-card.aos-animate::after,
+.aos-animate .caixa-trailer-card::after {
+  animation: crescer-borda-trailer 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.5s
+    forwards;
+}
+
+@keyframes crescer-borda-trailer {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0);
+  }
 }
 
 .link-card {
