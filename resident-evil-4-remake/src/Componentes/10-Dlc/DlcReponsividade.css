@@ -172,6 +172,13 @@
     height: clamp(1.536rem, 4.267vw, 3.277rem);
     display: block;
   }
+
+  .botaofecharmodalSeparateWays-1,
+  .botaofecharmodalSeparateWays-2 {
+    font-size: clamp(2.941rem, 1.107rem + 5.09vw, 8.447rem);
+    right: 1rem;
+    top: 1rem;
+  }
 }
 
 @media screen and (max-width: 430px) {

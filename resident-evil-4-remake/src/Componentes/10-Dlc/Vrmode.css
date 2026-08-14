@@ -190,7 +190,8 @@
 }
 
 .botao-abrir-modal-vr {
-  width: 2.277rem;
+  width: clamp(1.536rem, 4.267vw, 3.277rem);
+  height: clamp(1.536rem, 4.267vw, 3.277rem);
   cursor: pointer;
 }
 

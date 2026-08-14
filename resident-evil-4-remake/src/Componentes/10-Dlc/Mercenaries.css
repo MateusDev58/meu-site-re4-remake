@@ -82,7 +82,6 @@
   font-family: "Teko", sans-serif;
   font-weight: 400;
   background-image: url("/meu-site-re4-remake/background-comprar.png");
-
   background-color: white;
   background-position: left top;
   background-size: cover;
@@ -140,7 +139,8 @@
 }
 
 .botao-abrir-modal-the-mercenaries {
-  width: 2.277rem;
+  width: clamp(1.536rem, 4.267vw, 3.277rem);
+  height: clamp(1.536rem, 4.267vw, 3.277rem);
   cursor: pointer;
 }
 

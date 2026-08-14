@@ -196,4 +196,11 @@
   .caixa-the-mercenaries::after {
     width: 100%;
   }
+
+  .modal-mercenaries button,
+  .modal-vr button {
+    font-size: clamp(2.941rem, 1.107rem + 5.09vw, 8.447rem);
+    right: 1rem;
+    top: 1rem;
+  }
 }
