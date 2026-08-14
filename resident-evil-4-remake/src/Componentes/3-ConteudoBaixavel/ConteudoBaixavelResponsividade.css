@@ -43,6 +43,10 @@
     );
   }
 
+  .caixa-conteudo-baixavel-ul li a::before {
+    width: 100%;
+  }
+
   .logo-demo-img {
     width: clamp(13.628rem, 37.85vw, 29.073rem);
   }
