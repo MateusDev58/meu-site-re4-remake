@@ -272,7 +272,7 @@
 .caixa-versao-didital {
   border: solid 0.1rem #4a4a4a;
   border-top: none;
-  border-bottom: none;
+
   display: flex;
   background-color: #000000;
   width: clamp(65.758rem, 38.217rem + 35.814vw, 87.119rem);
@@ -281,12 +281,10 @@
 .capa-edicao {
   width: clamp(32.678rem, 18.918rem + 17.894vw, 43.359rem);
   border-right: solid 0.1rem #4a4a4a;
-  border-bottom: solid 0.1rem #4a4a4a;
 }
 
 .caixa-didital-loja {
   width: clamp(32.778rem, 19.018rem + 17.891vw, 43.459rem);
-  border-bottom: solid 0.1rem #4a4a4a;
 }
 
 .caixa-conteudo-didital {
